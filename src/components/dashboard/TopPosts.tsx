@@ -54,7 +54,6 @@ function formatDateShort(dateStr: string): string {
   return d.toLocaleDateString("en-US", {
     month: "short",
     day: "numeric",
-    year: "2-digit",
   });
 }
 
@@ -161,7 +160,7 @@ export default function TopPosts({ posts }: TopPostsProps) {
               </th>
               <th className="pb-2 text-right">
                 <SortHeader
-                  label="Rate"
+                  label="Eng/Impr"
                   sortKey="engagementRate"
                   currentKey={sortKey}
                   currentDir={sortDir}

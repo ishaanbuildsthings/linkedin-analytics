@@ -9,11 +9,11 @@ interface DateRangeSelectorProps {
   dataDays: number;
 }
 
-const allOptions: { value: DateRange; label: string }[] = [
-  { value: "week", label: "Past week" },
-  { value: "month", label: "Past month" },
-  { value: "3months", label: "Past 3 months" },
-  { value: "year", label: "Past year" },
+const allOptions: { value: DateRange; label: string; shortLabel: string }[] = [
+  { value: "week", label: "Past week", shortLabel: "Week" },
+  { value: "month", label: "Past month", shortLabel: "Month" },
+  { value: "3months", label: "Past 3 months", shortLabel: "3 mo" },
+  { value: "year", label: "Past year", shortLabel: "Year" },
 ];
 
 export default function DateRangeSelector({
@@ -28,24 +28,25 @@ export default function DateRangeSelector({
 
   return (
     <div>
-      <div className="flex flex-wrap items-center gap-2">
+      <div className="flex items-center gap-1.5 sm:gap-2">
         {options.map((opt) => (
           <button
             key={opt.value}
             onClick={() => onChange(opt.value)}
-            className={`rounded-full px-4 py-1.5 font-mono text-xs font-medium transition-colors ${
+            className={`rounded-full px-3 py-1 font-mono text-[11px] font-medium transition-colors sm:px-4 sm:py-1.5 sm:text-xs ${
               value === opt.value
                 ? "bg-[var(--foreground)] text-[var(--background)]"
                 : "border border-[var(--border-light)] bg-[var(--surface)] text-[var(--muted)] hover:text-[var(--foreground)]"
             }`}
           >
-            {opt.label}
+            <span className="sm:hidden">{opt.shortLabel}</span>
+            <span className="hidden sm:inline">{opt.label}</span>
           </button>
         ))}
-        <span className="font-mono text-[11px] text-[var(--muted)]">
-          ({dataDays} days of data)
-        </span>
       </div>
+      <p className="mt-1 font-mono text-[11px] text-[var(--muted)]">
+        ({dataDays} days of data)
+      </p>
       {dataDays <= 14 && (
         <p className="mt-2 font-mono text-[11px] text-[var(--amber)]">
           Tip: Select &quot;Past 365 days&quot; in LinkedIn before exporting to get more data.
