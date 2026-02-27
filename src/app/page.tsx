@@ -2,8 +2,9 @@
 
 import { useState, useCallback } from "react";
 import Dashboard from "@/components/dashboard/Dashboard";
+import CompanyDashboard from "@/components/company-dashboard/CompanyDashboard";
 import UploadZone from "@/components/upload/UploadZone";
-import type { LinkedInData } from "@/lib/types";
+import type { LinkedInData, UploadResult } from "@/lib/types";
 import { GITHUB_URL } from "@/lib/constants";
 import ExportCallout from "@/components/upload/ExportCallout";
 import demoData from "@/data/ishaan.json";
@@ -12,11 +13,11 @@ const LINKEDIN_ANALYTICS_URL =
   "https://www.linkedin.com/analytics/creator/content/";
 
 export default function Home() {
-  const [data, setData] = useState<LinkedInData | null>(null);
+  const [data, setData] = useState<UploadResult | null>(null);
   const [exiting, setExiting] = useState(false);
 
-  const handleUpload = (parsed: LinkedInData) => {
-    setData(parsed);
+  const handleUpload = (result: UploadResult) => {
+    setData(result);
   };
 
   const handleReset = useCallback(() => {
@@ -59,7 +60,11 @@ export default function Home() {
           </div>
         </header>
         <main className="mx-auto max-w-7xl px-6 py-8">
-          <Dashboard data={data} />
+          {data.type === "creator" ? (
+            <Dashboard data={data.data} />
+          ) : (
+            <CompanyDashboard data={data.data} />
+          )}
         </main>
       </div>
     );
@@ -75,8 +80,8 @@ export default function Home() {
 
         {/* Subtitle */}
         <p className="mb-2 max-w-lg text-center text-lg text-[var(--muted)]">
-          Upload your LinkedIn analytics report to see top posts,
-          engagement metrics, follower growth, and more.
+          Upload your LinkedIn analytics export — personal or company page
+          — to see top posts, engagement metrics, and more.
         </p>
 
         {/* Upload zone */}
@@ -84,7 +89,7 @@ export default function Home() {
           <UploadZone onDataLoaded={handleUpload} />
         </div>
         <button
-          onClick={() => handleUpload(demoData as LinkedInData)}
+          onClick={() => handleUpload({ type: "creator", data: demoData as LinkedInData })}
           className="mb-6 font-mono text-xs text-[var(--muted)] underline decoration-[var(--border-light)] underline-offset-4 transition-colors hover:text-[var(--foreground)] hover:decoration-[var(--foreground)]"
         >
           or try with sample data
@@ -104,7 +109,7 @@ export default function Home() {
                   href={LINKEDIN_ANALYTICS_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-mono text-xs text-[#0077B5] hover:underline"
+                  className="font-mono text-xs text-[#0077B5] underline underline-offset-4 hover:decoration-2"
                 >
                   Open LinkedIn &rarr;
                 </a>
@@ -117,7 +122,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <span className="font-mono text-2xl font-black">02</span>
             <p className="font-mono text-xs font-bold uppercase tracking-wider">
-              Drop the .xlsx file above
+              Drop the file above
             </p>
           </div>
 

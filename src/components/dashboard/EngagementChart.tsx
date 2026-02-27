@@ -22,6 +22,9 @@ interface EngagementChartProps {
   cumulativeData: DailyEngagement[];
   postDateMap: Map<string, string>;
   topPostRanks: Map<string, { rank: number; impressions: number; url: string }>;
+  totalImpressions: number;
+  totalEngagements: number;
+  periodLabel: string;
 }
 
 const RANK_COLORS = [COLORS.gold, COLORS.silver, COLORS.bronze];
@@ -61,6 +64,9 @@ export default function EngagementChart({
   cumulativeData,
   postDateMap,
   topPostRanks,
+  totalImpressions,
+  totalEngagements,
+  periodLabel,
 }: EngagementChartProps) {
   const [mode, setMode] = useState<"daily" | "cumulative">("daily");
 
@@ -87,7 +93,20 @@ export default function EngagementChart({
   const isCumulative = mode === "cumulative";
 
   return (
-    <Card title="Impressions & Engagements">
+    <Card>
+      <div className="mb-3 flex items-start justify-between">
+        <h3 className="font-mono text-xs font-medium text-[var(--muted)]">
+          Impressions &amp; Engagements
+        </h3>
+        <div className="text-right">
+          <p className="font-mono text-[11px] text-[var(--muted)] sm:text-xs">
+            +{formatNumber(totalImpressions)} impressions · +{formatNumber(totalEngagements)} engagements
+          </p>
+          {periodLabel && (
+            <p className="font-mono text-[10px] tracking-tight text-[var(--border)]">{periodLabel}</p>
+          )}
+        </div>
+      </div>
       <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
         <ChartModeToggle mode={mode} onChange={setMode} />
         {postDateMap.size > 0 && (

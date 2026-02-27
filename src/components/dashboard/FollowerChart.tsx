@@ -15,11 +15,14 @@ import ChartModeToggle from "@/components/ui/ChartModeToggle";
 import { COLORS } from "@/lib/constants";
 import { formatDateFull, makeTickFormatter, formatNumber } from "@/lib/format";
 
+
 interface FollowerChartProps {
   data: Array<{ date: string; followers: number }>;
   dailyData: Array<{ date: string; followers: number }>;
   postDateMap: Map<string, string>;
   topPostRanks: Map<string, { rank: number; impressions: number; url: string }>;
+  totalNewFollowers: number;
+  periodLabel: string;
 }
 
 const RANK_COLORS = [COLORS.gold, COLORS.silver, COLORS.bronze];
@@ -58,6 +61,8 @@ export default function FollowerChart({
   dailyData,
   postDateMap,
   topPostRanks,
+  totalNewFollowers,
+  periodLabel,
 }: FollowerChartProps) {
   const [mode, setMode] = useState<"daily" | "cumulative">("daily");
 
@@ -85,7 +90,20 @@ export default function FollowerChart({
   const isCumulative = mode === "cumulative";
 
   return (
-    <Card title="Follower Growth">
+    <Card>
+      <div className="mb-3 flex items-start justify-between">
+        <h3 className="font-mono text-xs font-medium text-[var(--muted)]">
+          Follower Growth
+        </h3>
+        <div className="text-right">
+          <p className="font-mono text-[11px] text-[var(--muted)] sm:text-xs">
+            +{formatNumber(totalNewFollowers)} followers
+          </p>
+          {periodLabel && (
+            <p className="font-mono text-[10px] tracking-tight text-[var(--border)]">{periodLabel}</p>
+          )}
+        </div>
+      </div>
       <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
         <ChartModeToggle mode={mode} onChange={setMode} />
         {postDateMap.size > 0 && (

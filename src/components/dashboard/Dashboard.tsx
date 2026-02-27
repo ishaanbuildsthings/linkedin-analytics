@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import type { LinkedInData, DateRange } from "@/lib/types";
 import { computeStats } from "@/lib/compute-stats";
-import { formatNumber } from "@/lib/format";
+import { formatNumber, formatDateRange } from "@/lib/format";
 import DateRangeSelector from "./DateRangeSelector";
 import EngagementChart from "./EngagementChart";
 import FollowerChart from "./FollowerChart";
@@ -39,6 +39,8 @@ function getDateCutoff(range: DateRange): string {
     case "year":
       now.setFullYear(now.getFullYear() - 1);
       break;
+    case "custom":
+      return "";
   }
   return now.toISOString().slice(0, 10);
 }
@@ -61,87 +63,122 @@ function getBestDefault(dataDays: number): DateRange {
 
 export default function Dashboard({ data }: DashboardProps) {
   // Compute the actual data span
-  const { dataDays, availableRanges, bestDefault } = useMemo(() => {
-    const dates = data.dailyEngagement.map((d) => d.date).sort();
-    const start = dates[0] || "";
-    const end = dates[dates.length - 1] || "";
-    const days =
-      dates.length > 1
-        ? Math.round(
-            (new Date(end + "T00:00:00").getTime() -
-              new Date(start + "T00:00:00").getTime()) /
-              (1000 * 60 * 60 * 24)
-          )
-        : dates.length;
-    const available = getAvailableRanges(days);
-    return {
-      dataDays: days,
-      availableRanges: available,
-      bestDefault: getBestDefault(days),
-    };
-  }, [data]);
+  const { dataDays, availableRanges, bestDefault, dataStartDate, dataEndDate } =
+    useMemo(() => {
+      const dates = data.dailyEngagement.map((d) => d.date).sort();
+      const start = dates[0] || "";
+      const end = dates[dates.length - 1] || "";
+      const days =
+        dates.length > 1
+          ? Math.round(
+              (new Date(end + "T00:00:00").getTime() -
+                new Date(start + "T00:00:00").getTime()) /
+                (1000 * 60 * 60 * 24)
+            )
+          : dates.length;
+      const available = getAvailableRanges(days);
+      return {
+        dataDays: days,
+        availableRanges: available,
+        bestDefault: getBestDefault(days),
+        dataStartDate: start,
+        dataEndDate: end,
+      };
+    }, [data]);
 
   const [dateRange, setDateRange] = useState<DateRange>(bestDefault);
+  const [customStart, setCustomStart] = useState(dataStartDate);
+  const [customEnd, setCustomEnd] = useState(dataEndDate);
 
-  const { filteredData, filteredStats, postDateMap, topPostRanks } = useMemo(() => {
-    const cutoff = getDateCutoff(dateRange);
+  const handleCustomChange = (start: string, end: string) => {
+    setCustomStart(start);
+    setCustomEnd(end);
+  };
 
-    const filteredEngagement = data.dailyEngagement.filter(
-      (d) => d.date >= cutoff
-    );
-    const filteredFollowers = data.dailyFollowers.filter(
-      (d) => d.date >= cutoff
-    );
-    const filteredPosts = data.topPosts.filter(
-      (p) => p.publishDate >= cutoff
-    );
+  const { filteredData, filteredStats, postDateMap, topPostRanks, periodLabel } =
+    useMemo(() => {
+      let cutoffStart: string;
+      let cutoffEnd: string;
 
-    const filtered: LinkedInData = {
-      ...data,
-      dailyEngagement: filteredEngagement,
-      dailyFollowers: filteredFollowers,
-      topPosts: filteredPosts,
-      overall: {
-        ...data.overall,
-        totalImpressions: filteredEngagement.reduce(
-          (s, d) => s + d.impressions,
-          0
-        ),
-      },
-    };
+      if (dateRange === "custom") {
+        cutoffStart = customStart;
+        cutoffEnd = customEnd;
+      } else {
+        cutoffStart = getDateCutoff(dateRange);
+        cutoffEnd = "9999-12-31";
+      }
 
-    const stats = computeStats(filtered);
+      const filteredEngagement = data.dailyEngagement.filter(
+        (d) => d.date >= cutoffStart && d.date <= cutoffEnd
+      );
+      const filteredFollowers = data.dailyFollowers.filter(
+        (d) => d.date >= cutoffStart && d.date <= cutoffEnd
+      );
+      const filteredPosts = data.topPosts.filter(
+        (p) => p.publishDate >= cutoffStart && p.publishDate <= cutoffEnd
+      );
 
-    // Build date → postUrl map for clickable chart dots
-    const dateMap = new Map<string, string>();
-    for (const post of filteredPosts) {
-      dateMap.set(post.publishDate, post.url);
-    }
+      const filtered: LinkedInData = {
+        ...data,
+        dailyEngagement: filteredEngagement,
+        dailyFollowers: filteredFollowers,
+        topPosts: filteredPosts,
+        overall: {
+          ...data.overall,
+          totalImpressions: filteredEngagement.reduce(
+            (s, d) => s + d.impressions,
+            0
+          ),
+        },
+      };
 
-    // Top 3 posts by impressions → date → { rank, impressions, url }
-    const topPostRanks = new Map<
-      string,
-      { rank: number; impressions: number; url: string }
-    >();
-    const sorted = [...filteredPosts]
-      .filter((p) => p.impressions > 0)
-      .sort((a, b) => b.impressions - a.impressions)
-      .slice(0, 3);
-    sorted.forEach((p, i) => {
-      topPostRanks.set(p.publishDate, {
-        rank: i,
-        impressions: p.impressions,
-        url: p.url,
+      const stats = computeStats(filtered);
+
+      // Build date → postUrl map for clickable chart dots
+      const dateMap = new Map<string, string>();
+      for (const post of filteredPosts) {
+        dateMap.set(post.publishDate, post.url);
+      }
+
+      // Top 3 posts by impressions → date → { rank, impressions, url }
+      const topPostRanks = new Map<
+        string,
+        { rank: number; impressions: number; url: string }
+      >();
+      const sorted = [...filteredPosts]
+        .filter((p) => p.impressions > 0)
+        .sort((a, b) => b.impressions - a.impressions)
+        .slice(0, 3);
+      sorted.forEach((p, i) => {
+        topPostRanks.set(p.publishDate, {
+          rank: i,
+          impressions: p.impressions,
+          url: p.url,
+        });
       });
-    });
 
-    return {
-      filteredData: filtered,
-      filteredStats: stats,
-      postDateMap: dateMap,
-      topPostRanks,
-    };
-  }, [data, dateRange]);
+      // Compute date range label
+      const engDates = filteredEngagement.map((d) => d.date).sort();
+      const rangeStart = engDates[0] || cutoffStart;
+      const rangeEnd = engDates[engDates.length - 1] || cutoffEnd;
+      const label =
+        rangeStart && rangeEnd && rangeEnd !== "9999-12-31"
+          ? formatDateRange(rangeStart, rangeEnd)
+          : "";
+
+      return {
+        filteredData: filtered,
+        filteredStats: stats,
+        postDateMap: dateMap,
+        topPostRanks,
+        periodLabel: label,
+      };
+    }, [data, dateRange, customStart, customEnd]);
+
+  const totalNewFollowers = filteredStats.dailyNewFollowers.reduce(
+    (s, d) => s + d.followers,
+    0
+  );
 
   return (
     <div className="animate-fade-in-up space-y-8">
@@ -150,6 +187,11 @@ export default function Dashboard({ data }: DashboardProps) {
         onChange={setDateRange}
         availableRanges={availableRanges}
         dataDays={dataDays}
+        customStart={customStart}
+        customEnd={customEnd}
+        onCustomChange={handleCustomChange}
+        dataStartDate={dataStartDate}
+        dataEndDate={dataEndDate}
       />
 
       {/* ── Impressions & Engagements ── */}
@@ -160,6 +202,9 @@ export default function Dashboard({ data }: DashboardProps) {
           cumulativeData={filteredStats.cumulativeEngagement}
           postDateMap={postDateMap}
           topPostRanks={topPostRanks}
+          totalImpressions={filteredStats.totalImpressions}
+          totalEngagements={filteredStats.totalEngagements}
+          periodLabel={periodLabel}
         />
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
           <StatCard
@@ -199,6 +244,8 @@ export default function Dashboard({ data }: DashboardProps) {
           dailyData={filteredStats.dailyNewFollowers}
           postDateMap={postDateMap}
           topPostRanks={topPostRanks}
+          totalNewFollowers={totalNewFollowers}
+          periodLabel={periodLabel}
         />
         <div className="grid grid-cols-2 gap-3">
           <StatCard

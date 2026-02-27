@@ -14,6 +14,12 @@ export const COLORS = {
   gold: "#FFD700",
   silver: "#C0C0C0",
   bronze: "#CD7F32",
+  clicks: "#2563eb",
+  reactions: "#e63946",
+  comments: "#2d6a4f",
+  reposts: "#f59e0b",
+  organic: "#1a1a1a",
+  sponsored: "#6366f1",
 } as const;
 
 export const LOADING_MESSAGES = [

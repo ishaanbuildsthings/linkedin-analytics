@@ -1,11 +1,11 @@
 "use client";
 
 import { useState, useCallback, useRef, useEffect } from "react";
-import type { LinkedInData } from "@/lib/types";
+import type { UploadResult } from "@/lib/types";
 import { LOADING_MESSAGES } from "@/lib/constants";
 
 interface UploadZoneProps {
-  onDataLoaded: (data: LinkedInData) => void;
+  onDataLoaded: (data: UploadResult) => void;
   compact?: boolean;
 }
 
@@ -28,25 +28,25 @@ export default function UploadZone({ onDataLoaded, compact }: UploadZoneProps) {
 
   const handleFile = useCallback(
     async (file: File) => {
-      if (!file.name.endsWith(".xlsx")) {
-        setError("That's not an .xlsx file. Nice try though.");
+      if (!file.name.endsWith(".xlsx") && !file.name.endsWith(".xls")) {
+        setError("That's not an .xlsx or .xls file. Nice try though.");
         return;
       }
       setError(null);
       setLoading(true);
       try {
         const XLSX = await import("xlsx");
-        const { parseLinkedInXlsx } = await import("@/lib/parse-xlsx");
+        const { detectAndParse } = await import("@/lib/detect-format");
         const buffer = await file.arrayBuffer();
         // Small delay so users can see the fun loading messages
         await new Promise((r) => setTimeout(r, 2000));
-        const data = parseLinkedInXlsx(XLSX, buffer);
-        onDataLoaded(data);
+        const result = detectAndParse(XLSX, buffer);
+        onDataLoaded(result);
       } catch (e) {
         setError(
           e instanceof Error
             ? e.message
-            : "Couldn't parse that file. Make sure it's a LinkedIn Creator Analytics export."
+            : "Couldn't parse that file. Make sure it's a LinkedIn Creator or Company Page analytics export."
         );
       } finally {
         setLoading(false);
@@ -100,7 +100,7 @@ export default function UploadZone({ onDataLoaded, compact }: UploadZoneProps) {
         <input
           ref={inputRef}
           type="file"
-          accept=".xlsx"
+          accept=".xlsx,.xls"
           onChange={onChange}
           className="hidden"
         />
@@ -130,7 +130,7 @@ export default function UploadZone({ onDataLoaded, compact }: UploadZoneProps) {
         ) : (
           <>
             <p className="mb-2 font-mono text-sm font-bold uppercase tracking-wider">
-              Drop your .xlsx here
+              Drop your .xlsx or .xls here
             </p>
             <p className="font-mono text-[10px] text-[var(--muted)]">
               Your data never leaves your browser.
@@ -144,7 +144,7 @@ export default function UploadZone({ onDataLoaded, compact }: UploadZoneProps) {
       <input
         ref={inputRef}
         type="file"
-        accept=".xlsx"
+        accept=".xlsx,.xls"
         onChange={onChange}
         className="hidden"
       />
