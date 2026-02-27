@@ -163,16 +163,17 @@ export default function Dashboard({ data }: DashboardProps) {
         />
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
           <StatCard
-            label="Avg daily impressions"
-            value={formatNumber(filteredStats.avgDailyImpressions)}
+            label="Avg post impressions"
+            value={formatNumber(filteredStats.avgPostImpressions)}
+          />
+          <StatCard
+            label="Avg post engagements"
+            value={formatNumber(filteredStats.avgPostEngagements)}
+            tooltip="Reactions, comments, shares, link clicks, and more"
           />
           <StatCard
             label="Median post impressions"
             value={formatNumber(filteredStats.medianPostImpressions)}
-          />
-          <StatCard
-            label="Avg post impressions"
-            value={formatNumber(filteredStats.avgPostImpressions)}
           />
           <StatCard
             label="Median post engagements"
@@ -180,9 +181,8 @@ export default function Dashboard({ data }: DashboardProps) {
             tooltip="Reactions, comments, shares, link clicks, and more"
           />
           <StatCard
-            label="Avg post engagements"
-            value={formatNumber(filteredStats.avgPostEngagements)}
-            tooltip="Reactions, comments, shares, link clicks, and more"
+            label="Avg daily impressions"
+            value={formatNumber(filteredStats.avgDailyImpressions)}
           />
         </div>
         <TopDays
