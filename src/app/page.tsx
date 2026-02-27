@@ -35,7 +35,7 @@ export default function Home() {
             <div className="flex items-center gap-2 sm:gap-3">
               <button
                 onClick={handleReset}
-                className="font-mono text-xs font-bold uppercase tracking-wider hover:text-[var(--accent)] sm:text-sm"
+                className="font-mono text-xs font-bold tracking-wider hover:text-[var(--accent)] sm:text-sm"
               >
                 areyouviral
               </button>
