@@ -44,9 +44,11 @@ export default function DateRangeSelector({
           </button>
         ))}
       </div>
-      <p className="mt-1 font-mono text-[11px] text-[var(--muted)]">
-        ({dataDays} days of data)
-      </p>
+      {dataDays <= 90 && (
+        <p className="mt-1 font-mono text-[11px] text-[var(--muted)]">
+          ({dataDays} days of data)
+        </p>
+      )}
       {dataDays <= 14 && (
         <p className="mt-2 font-mono text-[11px] text-[var(--amber)]">
           Tip: Select &quot;Past 365 days&quot; in LinkedIn before exporting to get more data.
