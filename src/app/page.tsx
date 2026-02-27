@@ -32,26 +32,24 @@ export default function Home() {
       <div className={`min-h-screen bg-[var(--background)] ${exiting ? "animate-fade-out-down" : ""}`}>
         <header className="border-b border-[var(--border-light)] px-4 py-3 sm:px-6 sm:py-4">
           <div className="mx-auto flex max-w-7xl items-center justify-between gap-2">
-            <div className="flex items-center gap-2 sm:gap-3">
-              <button
-                onClick={handleReset}
-                className="font-mono text-xs font-bold tracking-wider hover:text-[var(--accent)] sm:text-sm"
+            <button
+              onClick={handleReset}
+              className="font-mono text-xs font-bold tracking-wider hover:text-[var(--accent)] sm:text-sm"
+            >
+              areyouviral
+            </button>
+            <span className="font-mono text-[10px] text-[var(--muted)] sm:text-xs">
+              Made by{" "}
+              <a
+                href="https://ishaan.ag"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-[var(--foreground)] underline decoration-[var(--border-light)] underline-offset-4 transition-colors hover:decoration-[var(--foreground)]"
               >
-                areyouviral
-              </button>
-              <span className="font-mono text-[10px] text-[var(--muted)] sm:text-xs">
-                Made by{" "}
-                <a
-                  href="https://ishaan.ag"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-medium text-[var(--foreground)] underline decoration-[var(--border-light)] underline-offset-4 transition-colors hover:decoration-[var(--foreground)]"
-                >
-                  Ishaan
-                </a>
-                <span className="hidden sm:inline">{" "}❤️</span>
-              </span>
-            </div>
+                Ishaan
+              </a>
+              <span className="hidden sm:inline">{" "}❤️</span>
+            </span>
             <button
               onClick={handleReset}
               className="border border-[var(--foreground)] bg-[var(--foreground)] px-3 py-1.5 font-mono text-[10px] font-bold uppercase tracking-wider text-[var(--background)] transition-colors hover:border-[var(--accent)] hover:bg-[var(--accent)] sm:px-4 sm:py-2 sm:text-xs"
@@ -144,7 +142,7 @@ export default function Home() {
           >
             Ishaan
           </a>
-          {" "}· {" "}
+          {" "}❤️ · {" "}
           <a
             href={GITHUB_URL}
             target="_blank"
