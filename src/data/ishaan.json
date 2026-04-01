@@ -1,3781 +1,777 @@
 {
   "overall": {
-    "dateRange": "2/27/2025 - 2/26/2026",
-    "totalImpressions": 3127720,
-    "membersReached": 1008306
+    "dateRange": "3/1/2026 - 4/1/2026",
+    "totalImpressions": 1404496,
+    "membersReached": 454558
   },
   "dailyEngagement": [
     {
-      "date": "2025-02-27",
-      "impressions": 98637,
-      "engagements": 959
+      "date": "2026-03-01",
+      "impressions": 16535,
+      "engagements": 192
     },
     {
-      "date": "2025-02-28",
-      "impressions": 74731,
-      "engagements": 615
+      "date": "2026-03-02",
+      "impressions": 75390,
+      "engagements": 969
     },
     {
-      "date": "2025-03-01",
-      "impressions": 43604,
-      "engagements": 447
+      "date": "2026-03-03",
+      "impressions": 245910,
+      "engagements": 3121
     },
     {
-      "date": "2025-03-02",
-      "impressions": 34719,
+      "date": "2026-03-04",
+      "impressions": 38270,
+      "engagements": 690
+    },
+    {
+      "date": "2026-03-05",
+      "impressions": 26091,
+      "engagements": 300
+    },
+    {
+      "date": "2026-03-06",
+      "impressions": 55480,
+      "engagements": 552
+    },
+    {
+      "date": "2026-03-07",
+      "impressions": 130712,
+      "engagements": 1256
+    },
+    {
+      "date": "2026-03-08",
+      "impressions": 69584,
+      "engagements": 576
+    },
+    {
+      "date": "2026-03-09",
+      "impressions": 22471,
+      "engagements": 232
+    },
+    {
+      "date": "2026-03-10",
+      "impressions": 27255,
+      "engagements": 222
+    },
+    {
+      "date": "2026-03-11",
+      "impressions": 28645,
+      "engagements": 224
+    },
+    {
+      "date": "2026-03-12",
+      "impressions": 19133,
+      "engagements": 169
+    },
+    {
+      "date": "2026-03-13",
+      "impressions": 16833,
+      "engagements": 244
+    },
+    {
+      "date": "2026-03-14",
+      "impressions": 40129,
+      "engagements": 501
+    },
+    {
+      "date": "2026-03-15",
+      "impressions": 22948,
+      "engagements": 231
+    },
+    {
+      "date": "2026-03-16",
+      "impressions": 22262,
+      "engagements": 256
+    },
+    {
+      "date": "2026-03-17",
+      "impressions": 22624,
+      "engagements": 266
+    },
+    {
+      "date": "2026-03-18",
+      "impressions": 23057,
+      "engagements": 284
+    },
+    {
+      "date": "2026-03-19",
+      "impressions": 32567,
+      "engagements": 365
+    },
+    {
+      "date": "2026-03-20",
+      "impressions": 18175,
+      "engagements": 270
+    },
+    {
+      "date": "2026-03-21",
+      "impressions": 30546,
+      "engagements": 439
+    },
+    {
+      "date": "2026-03-22",
+      "impressions": 34502,
       "engagements": 291
     },
     {
-      "date": "2025-03-03",
-      "impressions": 31675,
-      "engagements": 246
+      "date": "2026-03-23",
+      "impressions": 60746,
+      "engagements": 539
     },
     {
-      "date": "2025-03-04",
-      "impressions": 23136,
-      "engagements": 201
+      "date": "2026-03-24",
+      "impressions": 122915,
+      "engagements": 759
     },
     {
-      "date": "2025-03-05",
-      "impressions": 31704,
-      "engagements": 316
+      "date": "2026-03-25",
+      "impressions": 29948,
+      "engagements": 195
     },
     {
-      "date": "2025-03-06",
-      "impressions": 40489,
-      "engagements": 383
+      "date": "2026-03-26",
+      "impressions": 29333,
+      "engagements": 285
     },
     {
-      "date": "2025-03-07",
-      "impressions": 46193,
-      "engagements": 358
+      "date": "2026-03-27",
+      "impressions": 35786,
+      "engagements": 322
     },
     {
-      "date": "2025-03-08",
-      "impressions": 37075,
-      "engagements": 240
+      "date": "2026-03-28",
+      "impressions": 17099,
+      "engagements": 129
     },
     {
-      "date": "2025-03-09",
-      "impressions": 19150,
-      "engagements": 120
+      "date": "2026-03-29",
+      "impressions": 12356,
+      "engagements": 90
     },
     {
-      "date": "2025-03-10",
-      "impressions": 14279,
-      "engagements": 78
+      "date": "2026-03-30",
+      "impressions": 15291,
+      "engagements": 247
     },
     {
-      "date": "2025-03-11",
-      "impressions": 7766,
-      "engagements": 53
+      "date": "2026-03-31",
+      "impressions": 29136,
+      "engagements": 450
     },
     {
-      "date": "2025-03-12",
-      "impressions": 7583,
-      "engagements": 36
-    },
-    {
-      "date": "2025-03-13",
-      "impressions": 55325,
-      "engagements": 383
-    },
-    {
-      "date": "2025-03-14",
-      "impressions": 45593,
-      "engagements": 200
-    },
-    {
-      "date": "2025-03-15",
-      "impressions": 14396,
-      "engagements": 63
-    },
-    {
-      "date": "2025-03-16",
-      "impressions": 8673,
-      "engagements": 29
-    },
-    {
-      "date": "2025-03-17",
-      "impressions": 21647,
-      "engagements": 148
-    },
-    {
-      "date": "2025-03-18",
-      "impressions": 62311,
-      "engagements": 522
-    },
-    {
-      "date": "2025-03-19",
-      "impressions": 102422,
-      "engagements": 575
-    },
-    {
-      "date": "2025-03-20",
-      "impressions": 39259,
-      "engagements": 187
-    },
-    {
-      "date": "2025-03-21",
-      "impressions": 86562,
-      "engagements": 342
-    },
-    {
-      "date": "2025-03-22",
-      "impressions": 145267,
-      "engagements": 592
-    },
-    {
-      "date": "2025-03-23",
-      "impressions": 219077,
-      "engagements": 925
-    },
-    {
-      "date": "2025-03-24",
-      "impressions": 70461,
-      "engagements": 385
-    },
-    {
-      "date": "2025-03-25",
-      "impressions": 33015,
-      "engagements": 144
-    },
-    {
-      "date": "2025-03-26",
-      "impressions": 43941,
-      "engagements": 396
-    },
-    {
-      "date": "2025-03-27",
-      "impressions": 26643,
-      "engagements": 193
-    },
-    {
-      "date": "2025-03-28",
-      "impressions": 15401,
-      "engagements": 98
-    },
-    {
-      "date": "2025-03-29",
-      "impressions": 11963,
-      "engagements": 57
-    },
-    {
-      "date": "2025-03-30",
-      "impressions": 11596,
-      "engagements": 76
-    },
-    {
-      "date": "2025-03-31",
-      "impressions": 11774,
-      "engagements": 74
-    },
-    {
-      "date": "2025-04-01",
-      "impressions": 7924,
-      "engagements": 28
-    },
-    {
-      "date": "2025-04-02",
-      "impressions": 3390,
-      "engagements": 18
-    },
-    {
-      "date": "2025-04-03",
-      "impressions": 3205,
-      "engagements": 29
-    },
-    {
-      "date": "2025-04-04",
-      "impressions": 3512,
-      "engagements": 25
-    },
-    {
-      "date": "2025-04-05",
-      "impressions": 3064,
-      "engagements": 16
-    },
-    {
-      "date": "2025-04-06",
-      "impressions": 3679,
-      "engagements": 10
-    },
-    {
-      "date": "2025-04-07",
-      "impressions": 2843,
-      "engagements": 21
-    },
-    {
-      "date": "2025-04-08",
-      "impressions": 2626,
-      "engagements": 11
-    },
-    {
-      "date": "2025-04-09",
-      "impressions": 2248,
-      "engagements": 15
-    },
-    {
-      "date": "2025-04-10",
-      "impressions": 1579,
-      "engagements": 10
-    },
-    {
-      "date": "2025-04-11",
-      "impressions": 1430,
-      "engagements": 7
-    },
-    {
-      "date": "2025-04-12",
-      "impressions": 1202,
-      "engagements": 4
-    },
-    {
-      "date": "2025-04-13",
-      "impressions": 1204,
-      "engagements": 5
-    },
-    {
-      "date": "2025-04-14",
-      "impressions": 1490,
-      "engagements": 10
-    },
-    {
-      "date": "2025-04-15",
-      "impressions": 1236,
-      "engagements": 4
-    },
-    {
-      "date": "2025-04-16",
-      "impressions": 957,
-      "engagements": 3
-    },
-    {
-      "date": "2025-04-17",
-      "impressions": 993,
-      "engagements": 1
-    },
-    {
-      "date": "2025-04-18",
-      "impressions": 977,
-      "engagements": 0
-    },
-    {
-      "date": "2025-04-19",
-      "impressions": 435,
-      "engagements": 1
-    },
-    {
-      "date": "2025-04-20",
-      "impressions": 449,
-      "engagements": 1
-    },
-    {
-      "date": "2025-04-21",
-      "impressions": 869,
-      "engagements": 1
-    },
-    {
-      "date": "2025-04-22",
-      "impressions": 842,
-      "engagements": 4
-    },
-    {
-      "date": "2025-04-23",
-      "impressions": 676,
-      "engagements": 0
-    },
-    {
-      "date": "2025-04-24",
-      "impressions": 498,
-      "engagements": 0
-    },
-    {
-      "date": "2025-04-25",
-      "impressions": 446,
-      "engagements": 1
-    },
-    {
-      "date": "2025-04-26",
-      "impressions": 326,
-      "engagements": -1
-    },
-    {
-      "date": "2025-04-27",
-      "impressions": 347,
-      "engagements": 0
-    },
-    {
-      "date": "2025-04-28",
-      "impressions": 609,
-      "engagements": 2
-    },
-    {
-      "date": "2025-04-29",
-      "impressions": 676,
-      "engagements": 3
-    },
-    {
-      "date": "2025-04-30",
-      "impressions": 501,
-      "engagements": 3
-    },
-    {
-      "date": "2025-05-01",
-      "impressions": 329,
-      "engagements": 0
-    },
-    {
-      "date": "2025-05-02",
-      "impressions": 426,
-      "engagements": 0
-    },
-    {
-      "date": "2025-05-03",
-      "impressions": 322,
-      "engagements": 0
-    },
-    {
-      "date": "2025-05-04",
-      "impressions": 305,
-      "engagements": 1
-    },
-    {
-      "date": "2025-05-05",
-      "impressions": 486,
-      "engagements": 0
-    },
-    {
-      "date": "2025-05-06",
-      "impressions": 439,
-      "engagements": 0
-    },
-    {
-      "date": "2025-05-07",
-      "impressions": 532,
-      "engagements": 1
-    },
-    {
-      "date": "2025-05-08",
-      "impressions": 550,
-      "engagements": 0
-    },
-    {
-      "date": "2025-05-09",
-      "impressions": 318,
-      "engagements": 1
-    },
-    {
-      "date": "2025-05-10",
-      "impressions": 233,
-      "engagements": 1
-    },
-    {
-      "date": "2025-05-11",
-      "impressions": 262,
-      "engagements": 1
-    },
-    {
-      "date": "2025-05-12",
-      "impressions": 403,
-      "engagements": 5
-    },
-    {
-      "date": "2025-05-13",
-      "impressions": 459,
-      "engagements": 3
-    },
-    {
-      "date": "2025-05-14",
-      "impressions": 547,
-      "engagements": 1
-    },
-    {
-      "date": "2025-05-15",
-      "impressions": 486,
-      "engagements": 1
-    },
-    {
-      "date": "2025-05-16",
-      "impressions": 394,
-      "engagements": 0
-    },
-    {
-      "date": "2025-05-17",
-      "impressions": 257,
-      "engagements": 0
-    },
-    {
-      "date": "2025-05-18",
-      "impressions": 255,
-      "engagements": 0
-    },
-    {
-      "date": "2025-05-19",
-      "impressions": 316,
-      "engagements": -2
-    },
-    {
-      "date": "2025-05-20",
-      "impressions": 9279,
-      "engagements": 118
-    },
-    {
-      "date": "2025-05-21",
-      "impressions": 9332,
-      "engagements": 66
-    },
-    {
-      "date": "2025-05-22",
-      "impressions": 2405,
-      "engagements": 6
-    },
-    {
-      "date": "2025-05-23",
-      "impressions": 1404,
-      "engagements": 3
-    },
-    {
-      "date": "2025-05-24",
-      "impressions": 658,
-      "engagements": 3
-    },
-    {
-      "date": "2025-05-25",
-      "impressions": 788,
-      "engagements": 8
-    },
-    {
-      "date": "2025-05-26",
-      "impressions": 771,
-      "engagements": 4
-    },
-    {
-      "date": "2025-05-27",
-      "impressions": 819,
-      "engagements": 4
-    },
-    {
-      "date": "2025-05-28",
-      "impressions": 818,
-      "engagements": 2
-    },
-    {
-      "date": "2025-05-29",
-      "impressions": 779,
-      "engagements": 3
-    },
-    {
-      "date": "2025-05-30",
-      "impressions": 658,
-      "engagements": -1
-    },
-    {
-      "date": "2025-05-31",
-      "impressions": 512,
-      "engagements": 3
-    },
-    {
-      "date": "2025-06-01",
-      "impressions": 506,
-      "engagements": 1
-    },
-    {
-      "date": "2025-06-02",
-      "impressions": 594,
-      "engagements": 1
-    },
-    {
-      "date": "2025-06-03",
-      "impressions": 538,
-      "engagements": 2
-    },
-    {
-      "date": "2025-06-04",
-      "impressions": 506,
-      "engagements": 1
-    },
-    {
-      "date": "2025-06-05",
-      "impressions": 2749,
-      "engagements": 40
-    },
-    {
-      "date": "2025-06-06",
-      "impressions": 4947,
-      "engagements": 45
-    },
-    {
-      "date": "2025-06-07",
-      "impressions": 1201,
-      "engagements": 0
-    },
-    {
-      "date": "2025-06-08",
-      "impressions": 1093,
-      "engagements": 4
-    },
-    {
-      "date": "2025-06-09",
-      "impressions": 906,
-      "engagements": 6
-    },
-    {
-      "date": "2025-06-10",
-      "impressions": 835,
-      "engagements": 2
-    },
-    {
-      "date": "2025-06-11",
-      "impressions": 568,
-      "engagements": 1
-    },
-    {
-      "date": "2025-06-12",
-      "impressions": 3695,
-      "engagements": 49
-    },
-    {
-      "date": "2025-06-13",
-      "impressions": 1609,
-      "engagements": 10
-    },
-    {
-      "date": "2025-06-14",
-      "impressions": 1209,
-      "engagements": 12
-    },
-    {
-      "date": "2025-06-15",
-      "impressions": 978,
-      "engagements": 9
-    },
-    {
-      "date": "2025-06-16",
-      "impressions": 1185,
-      "engagements": 6
-    },
-    {
-      "date": "2025-06-17",
-      "impressions": 24518,
-      "engagements": 370
-    },
-    {
-      "date": "2025-06-18",
-      "impressions": 12216,
-      "engagements": 105
-    },
-    {
-      "date": "2025-06-19",
-      "impressions": 6561,
-      "engagements": 98
-    },
-    {
-      "date": "2025-06-20",
-      "impressions": 3539,
-      "engagements": 32
-    },
-    {
-      "date": "2025-06-21",
-      "impressions": 1885,
-      "engagements": 19
-    },
-    {
-      "date": "2025-06-22",
-      "impressions": 2379,
-      "engagements": 14
-    },
-    {
-      "date": "2025-06-23",
-      "impressions": 12784,
-      "engagements": 110
-    },
-    {
-      "date": "2025-06-24",
-      "impressions": 20210,
-      "engagements": 119
-    },
-    {
-      "date": "2025-06-25",
-      "impressions": 5658,
-      "engagements": 36
-    },
-    {
-      "date": "2025-06-26",
-      "impressions": 3549,
-      "engagements": 19
-    },
-    {
-      "date": "2025-06-27",
-      "impressions": 2199,
-      "engagements": 28
-    },
-    {
-      "date": "2025-06-28",
-      "impressions": 1377,
-      "engagements": 10
-    },
-    {
-      "date": "2025-06-29",
-      "impressions": 1356,
-      "engagements": 10
-    },
-    {
-      "date": "2025-06-30",
-      "impressions": 2045,
-      "engagements": 18
-    },
-    {
-      "date": "2025-07-01",
-      "impressions": 4295,
-      "engagements": 58
-    },
-    {
-      "date": "2025-07-02",
-      "impressions": 5715,
-      "engagements": 64
-    },
-    {
-      "date": "2025-07-03",
-      "impressions": 3305,
-      "engagements": 26
-    },
-    {
-      "date": "2025-07-04",
-      "impressions": 1890,
-      "engagements": 12
-    },
-    {
-      "date": "2025-07-05",
-      "impressions": 1634,
-      "engagements": 4
-    },
-    {
-      "date": "2025-07-06",
-      "impressions": 1594,
-      "engagements": 13
-    },
-    {
-      "date": "2025-07-07",
-      "impressions": 5137,
-      "engagements": 47
-    },
-    {
-      "date": "2025-07-08",
-      "impressions": 2168,
-      "engagements": 11
-    },
-    {
-      "date": "2025-07-09",
-      "impressions": 2004,
-      "engagements": 18
-    },
-    {
-      "date": "2025-07-10",
-      "impressions": 1984,
-      "engagements": 12
-    },
-    {
-      "date": "2025-07-11",
-      "impressions": 1128,
-      "engagements": 8
-    },
-    {
-      "date": "2025-07-12",
-      "impressions": 880,
-      "engagements": 6
-    },
-    {
-      "date": "2025-07-13",
-      "impressions": 987,
-      "engagements": 10
-    },
-    {
-      "date": "2025-07-14",
-      "impressions": 1030,
-      "engagements": 7
-    },
-    {
-      "date": "2025-07-15",
-      "impressions": 858,
-      "engagements": 5
-    },
-    {
-      "date": "2025-07-16",
-      "impressions": 856,
-      "engagements": 4
-    },
-    {
-      "date": "2025-07-17",
-      "impressions": 29929,
-      "engagements": 8
-    },
-    {
-      "date": "2025-07-18",
-      "impressions": 834,
-      "engagements": 4
-    },
-    {
-      "date": "2025-07-19",
-      "impressions": 569,
-      "engagements": 1
-    },
-    {
-      "date": "2025-07-20",
-      "impressions": 418,
-      "engagements": 3
-    },
-    {
-      "date": "2025-07-21",
-      "impressions": 721,
-      "engagements": 2
-    },
-    {
-      "date": "2025-07-22",
-      "impressions": 421,
-      "engagements": 1
-    },
-    {
-      "date": "2025-07-23",
-      "impressions": 361,
-      "engagements": 0
-    },
-    {
-      "date": "2025-07-24",
-      "impressions": 560,
-      "engagements": 5
-    },
-    {
-      "date": "2025-07-25",
-      "impressions": 372,
-      "engagements": -1
-    },
-    {
-      "date": "2025-07-26",
-      "impressions": 304,
-      "engagements": -1
-    },
-    {
-      "date": "2025-07-27",
-      "impressions": 301,
-      "engagements": 4
-    },
-    {
-      "date": "2025-07-28",
-      "impressions": 332,
-      "engagements": -1
-    },
-    {
-      "date": "2025-07-29",
-      "impressions": 350,
-      "engagements": 0
-    },
-    {
-      "date": "2025-07-30",
-      "impressions": 255,
-      "engagements": 1
-    },
-    {
-      "date": "2025-07-31",
-      "impressions": 255,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-01",
-      "impressions": 209,
-      "engagements": 1
-    },
-    {
-      "date": "2025-08-02",
-      "impressions": 269,
-      "engagements": 5
-    },
-    {
-      "date": "2025-08-03",
-      "impressions": 254,
-      "engagements": 1
-    },
-    {
-      "date": "2025-08-04",
-      "impressions": 234,
-      "engagements": 2
-    },
-    {
-      "date": "2025-08-05",
-      "impressions": 192,
-      "engagements": 2
-    },
-    {
-      "date": "2025-08-06",
-      "impressions": 332,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-07",
-      "impressions": 369,
-      "engagements": 2
-    },
-    {
-      "date": "2025-08-08",
-      "impressions": 247,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-09",
-      "impressions": 173,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-10",
-      "impressions": 122,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-11",
-      "impressions": 169,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-12",
-      "impressions": 168,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-13",
-      "impressions": 293,
-      "engagements": 1
-    },
-    {
-      "date": "2025-08-14",
-      "impressions": 160,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-15",
-      "impressions": 267,
-      "engagements": 2
-    },
-    {
-      "date": "2025-08-16",
-      "impressions": 186,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-17",
-      "impressions": 138,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-18",
-      "impressions": 177,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-19",
-      "impressions": 163,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-20",
-      "impressions": 140,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-21",
-      "impressions": 178,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-22",
-      "impressions": 323,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-23",
-      "impressions": 150,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-24",
-      "impressions": 150,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-25",
-      "impressions": 156,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-26",
-      "impressions": 198,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-27",
-      "impressions": 217,
-      "engagements": 1
-    },
-    {
-      "date": "2025-08-28",
-      "impressions": 166,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-29",
-      "impressions": 168,
-      "engagements": 0
-    },
-    {
-      "date": "2025-08-30",
-      "impressions": 87,
-      "engagements": -1
-    },
-    {
-      "date": "2025-08-31",
-      "impressions": 88,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-01",
-      "impressions": 132,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-02",
-      "impressions": 188,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-03",
-      "impressions": 127,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-04",
-      "impressions": 183,
-      "engagements": 2
-    },
-    {
-      "date": "2025-09-05",
-      "impressions": 196,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-06",
-      "impressions": 119,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-07",
-      "impressions": 108,
-      "engagements": 1
-    },
-    {
-      "date": "2025-09-08",
-      "impressions": 150,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-09",
-      "impressions": 132,
-      "engagements": -1
-    },
-    {
-      "date": "2025-09-10",
-      "impressions": 111,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-11",
-      "impressions": 108,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-12",
-      "impressions": 117,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-13",
-      "impressions": 60,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-14",
-      "impressions": 99,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-15",
-      "impressions": 70,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-16",
-      "impressions": 100,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-17",
-      "impressions": 223,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-18",
-      "impressions": 159,
-      "engagements": 1
-    },
-    {
-      "date": "2025-09-19",
-      "impressions": 140,
-      "engagements": 4
-    },
-    {
-      "date": "2025-09-20",
-      "impressions": 79,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-21",
-      "impressions": 104,
-      "engagements": 3
-    },
-    {
-      "date": "2025-09-22",
-      "impressions": 137,
-      "engagements": 2
-    },
-    {
-      "date": "2025-09-23",
-      "impressions": 122,
-      "engagements": 0
-    },
-    {
-      "date": "2025-09-24",
-      "impressions": 148,
-      "engagements": 1
-    },
-    {
-      "date": "2025-09-25",
-      "impressions": 220,
-      "engagements": 1
-    },
-    {
-      "date": "2025-09-26",
-      "impressions": 143,
-      "engagements": -7
-    },
-    {
-      "date": "2025-09-27",
-      "impressions": 91,
-      "engagements": 1
-    },
-    {
-      "date": "2025-09-28",
-      "impressions": 95,
-      "engagements": 2
-    },
-    {
-      "date": "2025-09-29",
-      "impressions": 126,
-      "engagements": 1
-    },
-    {
-      "date": "2025-09-30",
-      "impressions": 1170,
-      "engagements": 32
-    },
-    {
-      "date": "2025-10-01",
-      "impressions": 547,
-      "engagements": 8
-    },
-    {
-      "date": "2025-10-02",
-      "impressions": 186,
-      "engagements": 0
-    },
-    {
-      "date": "2025-10-03",
-      "impressions": 202,
-      "engagements": 1
-    },
-    {
-      "date": "2025-10-04",
-      "impressions": 150,
-      "engagements": 2
-    },
-    {
-      "date": "2025-10-05",
-      "impressions": 119,
-      "engagements": 1
-    },
-    {
-      "date": "2025-10-06",
-      "impressions": 176,
-      "engagements": 2
-    },
-    {
-      "date": "2025-10-07",
-      "impressions": 161,
-      "engagements": 3
-    },
-    {
-      "date": "2025-10-08",
-      "impressions": 133,
-      "engagements": 0
-    },
-    {
-      "date": "2025-10-09",
-      "impressions": 85,
-      "engagements": 1
-    },
-    {
-      "date": "2025-10-10",
-      "impressions": 109,
-      "engagements": 0
-    },
-    {
-      "date": "2025-10-11",
-      "impressions": 115,
-      "engagements": 1
-    },
-    {
-      "date": "2025-10-12",
-      "impressions": 84,
-      "engagements": 2
-    },
-    {
-      "date": "2025-10-13",
-      "impressions": 118,
-      "engagements": 1
-    },
-    {
-      "date": "2025-10-14",
-      "impressions": 133,
-      "engagements": 0
-    },
-    {
-      "date": "2025-10-15",
-      "impressions": 188,
-      "engagements": 1
-    },
-    {
-      "date": "2025-10-16",
-      "impressions": 105,
-      "engagements": 0
-    },
-    {
-      "date": "2025-10-17",
-      "impressions": 76,
-      "engagements": 1
-    },
-    {
-      "date": "2025-10-18",
-      "impressions": 119,
-      "engagements": 0
-    },
-    {
-      "date": "2025-10-19",
-      "impressions": 69,
-      "engagements": 0
-    },
-    {
-      "date": "2025-10-20",
-      "impressions": 5647,
-      "engagements": 63
-    },
-    {
-      "date": "2025-10-21",
-      "impressions": 5541,
-      "engagements": 37
-    },
-    {
-      "date": "2025-10-22",
-      "impressions": 7945,
-      "engagements": 95
-    },
-    {
-      "date": "2025-10-23",
-      "impressions": 5117,
-      "engagements": 50
-    },
-    {
-      "date": "2025-10-24",
-      "impressions": 1482,
-      "engagements": 17
-    },
-    {
-      "date": "2025-10-25",
-      "impressions": 862,
-      "engagements": 5
-    },
-    {
-      "date": "2025-10-26",
-      "impressions": 797,
-      "engagements": 4
-    },
-    {
-      "date": "2025-10-27",
-      "impressions": 16178,
-      "engagements": 138
-    },
-    {
-      "date": "2025-10-28",
-      "impressions": 26216,
-      "engagements": 127
-    },
-    {
-      "date": "2025-10-29",
-      "impressions": 14232,
-      "engagements": 149
-    },
-    {
-      "date": "2025-10-30",
-      "impressions": 29602,
-      "engagements": 341
-    },
-    {
-      "date": "2025-10-31",
-      "impressions": 27105,
-      "engagements": 235
-    },
-    {
-      "date": "2025-11-01",
-      "impressions": 12610,
-      "engagements": 87
-    },
-    {
-      "date": "2025-11-02",
-      "impressions": 9869,
-      "engagements": 76
-    },
-    {
-      "date": "2025-11-03",
-      "impressions": 7867,
-      "engagements": 46
-    },
-    {
-      "date": "2025-11-04",
-      "impressions": 6475,
-      "engagements": 48
-    },
-    {
-      "date": "2025-11-05",
-      "impressions": 5401,
-      "engagements": 24
-    },
-    {
-      "date": "2025-11-06",
-      "impressions": 5410,
-      "engagements": 30
-    },
-    {
-      "date": "2025-11-07",
-      "impressions": 4052,
-      "engagements": 19
-    },
-    {
-      "date": "2025-11-08",
-      "impressions": 3969,
-      "engagements": 23
-    },
-    {
-      "date": "2025-11-09",
-      "impressions": 3662,
-      "engagements": 17
-    },
-    {
-      "date": "2025-11-10",
-      "impressions": 3381,
-      "engagements": 30
-    },
-    {
-      "date": "2025-11-11",
-      "impressions": 1862,
-      "engagements": 23
-    },
-    {
-      "date": "2025-11-12",
-      "impressions": 1180,
-      "engagements": 8
-    },
-    {
-      "date": "2025-11-13",
-      "impressions": 819,
-      "engagements": 2
-    },
-    {
-      "date": "2025-11-14",
-      "impressions": 551,
-      "engagements": 9
-    },
-    {
-      "date": "2025-11-15",
-      "impressions": 775,
-      "engagements": 9
-    },
-    {
-      "date": "2025-11-16",
-      "impressions": 921,
-      "engagements": 11
-    },
-    {
-      "date": "2025-11-17",
-      "impressions": 805,
-      "engagements": 9
-    },
-    {
-      "date": "2025-11-18",
-      "impressions": 408,
-      "engagements": 3
-    },
-    {
-      "date": "2025-11-19",
-      "impressions": 368,
-      "engagements": 4
-    },
-    {
-      "date": "2025-11-20",
-      "impressions": 354,
-      "engagements": 1
-    },
-    {
-      "date": "2025-11-21",
-      "impressions": 10280,
-      "engagements": 176
-    },
-    {
-      "date": "2025-11-22",
-      "impressions": 12128,
-      "engagements": 131
-    },
-    {
-      "date": "2025-11-23",
-      "impressions": 7754,
-      "engagements": 58
-    },
-    {
-      "date": "2025-11-24",
-      "impressions": 4474,
-      "engagements": 45
-    },
-    {
-      "date": "2025-11-25",
-      "impressions": 2098,
-      "engagements": 15
-    },
-    {
-      "date": "2025-11-26",
-      "impressions": 1382,
-      "engagements": 14
-    },
-    {
-      "date": "2025-11-27",
-      "impressions": 1123,
-      "engagements": 11
-    },
-    {
-      "date": "2025-11-28",
-      "impressions": 689,
-      "engagements": 4
-    },
-    {
-      "date": "2025-11-29",
-      "impressions": 662,
-      "engagements": 5
-    },
-    {
-      "date": "2025-11-30",
-      "impressions": 971,
-      "engagements": 5
-    },
-    {
-      "date": "2025-12-01",
-      "impressions": 582,
-      "engagements": 5
-    },
-    {
-      "date": "2025-12-02",
-      "impressions": 506,
-      "engagements": 3
-    },
-    {
-      "date": "2025-12-03",
-      "impressions": 458,
-      "engagements": 6
-    },
-    {
-      "date": "2025-12-04",
-      "impressions": 560,
-      "engagements": 2
-    },
-    {
-      "date": "2025-12-05",
-      "impressions": 411,
-      "engagements": 3
-    },
-    {
-      "date": "2025-12-06",
-      "impressions": 156,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-07",
-      "impressions": 218,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-08",
-      "impressions": 242,
-      "engagements": 1
-    },
-    {
-      "date": "2025-12-09",
-      "impressions": 362,
-      "engagements": 3
-    },
-    {
-      "date": "2025-12-10",
-      "impressions": 362,
-      "engagements": 1
-    },
-    {
-      "date": "2025-12-11",
-      "impressions": 225,
-      "engagements": 1
-    },
-    {
-      "date": "2025-12-12",
-      "impressions": 122,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-13",
-      "impressions": 128,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-14",
-      "impressions": 258,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-15",
-      "impressions": 246,
-      "engagements": 2
-    },
-    {
-      "date": "2025-12-16",
-      "impressions": 286,
-      "engagements": 3
-    },
-    {
-      "date": "2025-12-17",
-      "impressions": 262,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-18",
-      "impressions": 194,
-      "engagements": -1
-    },
-    {
-      "date": "2025-12-19",
-      "impressions": 329,
-      "engagements": 4
-    },
-    {
-      "date": "2025-12-20",
-      "impressions": 82,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-21",
-      "impressions": 112,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-22",
-      "impressions": 171,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-23",
-      "impressions": 141,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-24",
-      "impressions": 94,
-      "engagements": -1
-    },
-    {
-      "date": "2025-12-25",
-      "impressions": 115,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-26",
-      "impressions": 212,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-27",
-      "impressions": 93,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-28",
-      "impressions": 174,
-      "engagements": 2
-    },
-    {
-      "date": "2025-12-29",
-      "impressions": 227,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-30",
-      "impressions": 186,
-      "engagements": 0
-    },
-    {
-      "date": "2025-12-31",
-      "impressions": 168,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-01",
-      "impressions": 67,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-02",
-      "impressions": 92,
-      "engagements": 1
-    },
-    {
-      "date": "2026-01-03",
-      "impressions": 83,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-04",
-      "impressions": 83,
-      "engagements": 1
-    },
-    {
-      "date": "2026-01-05",
-      "impressions": 234,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-06",
-      "impressions": 174,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-07",
-      "impressions": 198,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-08",
-      "impressions": 165,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-09",
-      "impressions": 132,
-      "engagements": -1
-    },
-    {
-      "date": "2026-01-10",
-      "impressions": 160,
-      "engagements": 2
-    },
-    {
-      "date": "2026-01-11",
-      "impressions": 106,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-12",
-      "impressions": 132,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-13",
-      "impressions": 201,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-14",
-      "impressions": 261,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-15",
-      "impressions": 229,
-      "engagements": 1
-    },
-    {
-      "date": "2026-01-16",
-      "impressions": 238,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-17",
-      "impressions": 116,
-      "engagements": 1
-    },
-    {
-      "date": "2026-01-18",
-      "impressions": 96,
-      "engagements": 1
-    },
-    {
-      "date": "2026-01-19",
-      "impressions": 136,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-20",
-      "impressions": 185,
-      "engagements": 1
-    },
-    {
-      "date": "2026-01-21",
-      "impressions": 167,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-22",
-      "impressions": 174,
-      "engagements": -1
-    },
-    {
-      "date": "2026-01-23",
-      "impressions": 176,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-24",
-      "impressions": 113,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-25",
-      "impressions": 146,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-26",
-      "impressions": 147,
-      "engagements": 0
-    },
-    {
-      "date": "2026-01-27",
-      "impressions": 171,
-      "engagements": -1
-    },
-    {
-      "date": "2026-01-28",
-      "impressions": 130,
-      "engagements": 1
-    },
-    {
-      "date": "2026-01-29",
-      "impressions": 98,
-      "engagements": -1
-    },
-    {
-      "date": "2026-01-30",
-      "impressions": 185,
-      "engagements": -2
-    },
-    {
-      "date": "2026-01-31",
-      "impressions": 160,
-      "engagements": 0
-    },
-    {
-      "date": "2026-02-01",
-      "impressions": 77,
-      "engagements": -1
-    },
-    {
-      "date": "2026-02-02",
-      "impressions": 132,
-      "engagements": 0
-    },
-    {
-      "date": "2026-02-03",
-      "impressions": 146,
-      "engagements": -2
-    },
-    {
-      "date": "2026-02-04",
-      "impressions": 493,
-      "engagements": 8
-    },
-    {
-      "date": "2026-02-05",
-      "impressions": 74403,
-      "engagements": 886
-    },
-    {
-      "date": "2026-02-06",
-      "impressions": 46000,
-      "engagements": 428
-    },
-    {
-      "date": "2026-02-07",
-      "impressions": 38319,
-      "engagements": 387
-    },
-    {
-      "date": "2026-02-08",
-      "impressions": 23858,
-      "engagements": 235
-    },
-    {
-      "date": "2026-02-09",
-      "impressions": 17002,
-      "engagements": 180
-    },
-    {
-      "date": "2026-02-10",
-      "impressions": 35339,
-      "engagements": 374
-    },
-    {
-      "date": "2026-02-11",
-      "impressions": 93671,
-      "engagements": 719
-    },
-    {
-      "date": "2026-02-12",
-      "impressions": 40759,
-      "engagements": 353
-    },
-    {
-      "date": "2026-02-13",
-      "impressions": 40143,
-      "engagements": 317
-    },
-    {
-      "date": "2026-02-14",
-      "impressions": 23870,
-      "engagements": 201
-    },
-    {
-      "date": "2026-02-15",
-      "impressions": 10138,
-      "engagements": 78
-    },
-    {
-      "date": "2026-02-16",
-      "impressions": 14745,
-      "engagements": 156
-    },
-    {
-      "date": "2026-02-17",
-      "impressions": 33157,
-      "engagements": 547
-    },
-    {
-      "date": "2026-02-18",
-      "impressions": 55159,
-      "engagements": 693
-    },
-    {
-      "date": "2026-02-19",
-      "impressions": 115338,
-      "engagements": 1053
-    },
-    {
-      "date": "2026-02-20",
-      "impressions": 50856,
-      "engagements": 483
-    },
-    {
-      "date": "2026-02-21",
-      "impressions": 93284,
-      "engagements": 1030
-    },
-    {
-      "date": "2026-02-22",
-      "impressions": 58382,
-      "engagements": 705
-    },
-    {
-      "date": "2026-02-23",
-      "impressions": 47991,
-      "engagements": 433
-    },
-    {
-      "date": "2026-02-24",
-      "impressions": 19398,
-      "engagements": 206
-    },
-    {
-      "date": "2026-02-25",
-      "impressions": 41177,
-      "engagements": 488
-    },
-    {
-      "date": "2026-02-26",
-      "impressions": 57763,
-      "engagements": 479
+      "date": "2026-04-01",
+      "impressions": 32767,
+      "engagements": 237
     }
   ],
   "topPosts": [
     {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7307823881510092801",
-      "publishDate": "2025-03-18",
-      "engagements": 3683,
-      "impressions": 749412,
-      "engagementRate": 0.004914519650072323
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7434303335886663681",
+      "publishDate": "2026-03-02",
+      "engagements": 4706,
+      "impressions": 376093,
+      "engagementRate": 0.012512862510070647
     },
     {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7299824481361973249",
-      "publishDate": "2025-02-24",
-      "engagements": 2054,
-      "impressions": 198861,
-      "engagementRate": 0.010328822644963065
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7435793755737300992",
+      "publishDate": "2026-03-06",
+      "engagements": 1800,
+      "impressions": 201150,
+      "engagementRate": 0.008948545861297539
     },
     {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7424959637658972160",
-      "publishDate": "2026-02-04",
-      "engagements": 1923,
-      "impressions": 172269,
-      "engagementRate": 0.01116277449802344
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7438289441711919104",
+      "publishDate": "2026-03-13",
+      "engagements": 1186,
+      "impressions": 93487,
+      "engagementRate": 0.012686255843058393
     },
     {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7429922267872014336",
-      "publishDate": "2026-02-18",
-      "engagements": 1375,
-      "impressions": 166056,
-      "engagementRate": 0.008280339162692104
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7441889239929143296",
+      "publishDate": "2026-03-23",
+      "engagements": 1156,
+      "impressions": 181939,
+      "engagementRate": 0.006353777914575765
     },
     {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7427067485553725440",
-      "publishDate": "2026-02-10",
-      "engagements": 1297,
-      "impressions": 171551,
-      "engagementRate": 0.007560433923439677
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7440836943799767040",
+      "publishDate": "2026-03-20",
+      "engagements": 657,
+      "impressions": 43078,
+      "engagementRate": 0.015251404429174985
     },
     {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7431004705192980480",
-      "publishDate": "2026-02-21",
-      "engagements": 906,
-      "impressions": 52534,
-      "engagementRate": 0.01724597403586249
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7435480959891869696",
+      "publishDate": "2026-03-06",
+      "engagements": 415,
+      "impressions": 51767,
+      "engagementRate": 0.008016690169412947
     },
     {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7305983886805684225",
-      "publishDate": "2025-03-13",
-      "engagements": 613,
-      "impressions": 120499,
-      "engagementRate": 0.005087179146714911
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7440101776902643712",
+      "publishDate": "2026-03-18",
+      "engagements": 519,
+      "impressions": 41584,
+      "engagementRate": 0.012480761831473643
     },
     {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7300900031174184980",
-      "publishDate": "2025-02-27",
-      "engagements": 886,
-      "impressions": 116537,
-      "engagementRate": 0.00760273561186576
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443027944224022528",
+      "publishDate": "2026-03-26",
+      "engagements": 478,
+      "impressions": 45023,
+      "engagementRate": 0.010616795859893832
     },
     {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7430702274269769728",
-      "publishDate": "2026-02-20",
-      "engagements": 833,
-      "impressions": 103829,
-      "engagementRate": 0.008022806730296931
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7388631643449778176",
-      "publishDate": "2025-10-27",
-      "engagements": 464,
-      "impressions": 87400,
-      "engagementRate": 0.005308924485125858
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7340743441351409668",
-      "publishDate": "2025-06-17",
-      "engagements": 583,
-      "impressions": 45963,
-      "engagementRate": 0.012684115484193808
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7307442475797774354",
-      "publishDate": "2025-03-17",
-      "engagements": 260,
-      "impressions": 62671,
-      "engagementRate": 0.004148649295527437
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7310675895424278528",
-      "publishDate": "2025-03-26",
-      "engagements": 561,
-      "impressions": 57874,
-      "engagementRate": 0.009693472025434564
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7303843790056751105",
-      "publishDate": "2025-03-07",
-      "engagements": 327,
-      "impressions": 59388,
-      "engagementRate": 0.005506162861184077
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7389331659248267267",
-      "publishDate": "2025-10-29",
-      "engagements": 555,
-      "impressions": 38758,
-      "engagementRate": 0.014319624335621032
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7429207225589620736",
-      "publishDate": "2026-02-16",
-      "engagements": 546,
-      "impressions": 46758,
-      "engagementRate": 0.011677146156807391
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7303072405210460160",
-      "publishDate": "2025-03-05",
-      "engagements": 470,
-      "impressions": 56927,
-      "engagementRate": 0.008256187749222689
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7429591193274970113",
-      "publishDate": "2026-02-17",
-      "engagements": 536,
-      "impressions": 19489,
-      "engagementRate": 0.02750269382728719
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7389673837572964353",
-      "publishDate": "2025-10-30",
-      "engagements": 458,
-      "impressions": 56490,
-      "engagementRate": 0.008107629668967959
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7432484938416877568",
-      "publishDate": "2026-02-25",
-      "engagements": 503,
-      "impressions": 55485,
-      "engagementRate": 0.009065513201766243
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7303460301817929731",
-      "publishDate": "2025-03-06",
-      "engagements": 399,
-      "impressions": 55362,
-      "engagementRate": 0.007207109569740977
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7397697481938980864",
-      "publishDate": "2025-11-21",
-      "engagements": 463,
-      "impressions": 44000,
-      "engagementRate": 0.010522727272727272
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7342977648882597893",
-      "publishDate": "2025-06-23",
-      "engagements": 344,
-      "impressions": 50865,
-      "engagementRate": 0.00676300009829942
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7430304749616361472",
-      "publishDate": "2026-02-19",
-      "engagements": 440,
-      "impressions": 32447,
-      "engagementRate": 0.01356057570807779
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7427783853785927680",
-      "publishDate": "2026-02-12",
-      "engagements": 409,
-      "impressions": 39319,
-      "engagementRate": 0.010402095678933848
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7425297635286224897",
-      "publishDate": "2026-02-05",
-      "engagements": 275,
-      "impressions": 37599,
-      "engagementRate": 0.007314024309157159
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7428147040452358144",
-      "publishDate": "2026-02-13",
-      "engagements": 304,
-      "impressions": 33832,
-      "engagementRate": 0.008985575786237881
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7431426648287272960",
-      "publishDate": "2026-02-22",
-      "engagements": 279,
-      "impressions": 34425,
-      "engagementRate": 0.008104575163398693
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7301239296949186561",
-      "publishDate": "2025-02-28",
-      "engagements": 141,
-      "impressions": 28270,
-      "engagementRate": 0.004987619384506544
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7432182700582645760",
-      "publishDate": "2026-02-24",
-      "engagements": 246,
-      "impressions": 19120,
-      "engagementRate": 0.012866108786610878
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7309994766576877570",
-      "publishDate": "2025-03-24",
-      "engagements": 221,
-      "impressions": 26945,
-      "engagementRate": 0.008201892744479496
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7425631917334503436",
-      "publishDate": "2026-02-06",
-      "engagements": 230,
-      "impressions": 21090,
-      "engagementRate": 0.010905642484589853
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7330625441226977280",
-      "publishDate": "2025-05-20",
-      "engagements": 224,
-      "impressions": 26134,
-      "engagementRate": 0.008571209918114334
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7300171021905522688",
-      "publishDate": "2025-02-25",
-      "engagements": 198,
-      "impressions": 21970,
-      "engagementRate": 0.009012289485662267
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7295484455509475328",
-      "publishDate": "2025-02-12",
-      "engagements": 162,
-      "impressions": 19719,
-      "engagementRate": 0.008215426745778184
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7386833821884784640",
-      "publishDate": "2025-10-22",
-      "engagements": 153,
-      "impressions": 11036,
-      "engagementRate": 0.013863718738673432
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7345821468343123969",
-      "publishDate": "2025-07-01",
-      "engagements": 144,
-      "impressions": 12481,
-      "engagementRate": 0.011537537056325615
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7221974084119605251",
-      "publishDate": "2024-07-24",
-      "engagements": 0,
-      "impressions": 14758,
-      "engagementRate": 0
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7341471184074510337",
-      "publishDate": "2025-06-19",
-      "engagements": 139,
-      "impressions": 13607,
-      "engagementRate": 0.010215330344675535
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7386091593826459649",
-      "publishDate": "2025-10-20",
-      "engagements": 68,
-      "impressions": 12655,
-      "engagementRate": 0.005373370209403398
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7336504381946650624",
-      "publishDate": "2025-06-05",
-      "engagements": 117,
-      "impressions": 11748,
-      "engagementRate": 0.009959141981613892
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7427399002419073024",
-      "publishDate": "2026-02-11",
-      "engagements": 97,
-      "impressions": 0,
-      "engagementRate": 0
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7293330860064284673",
-      "publishDate": "2025-02-06",
-      "engagements": 72,
-      "impressions": 12365,
-      "engagementRate": 0.005822887181560857
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7338939180405731330",
-      "publishDate": "2025-06-12",
-      "engagements": 95,
-      "impressions": 9100,
-      "engagementRate": 0.010439560439560439
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7426693408544530433",
-      "publishDate": "2026-02-09",
-      "engagements": 91,
-      "impressions": 7159,
-      "engagementRate": 0.012711272524095544
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7347988293780725760",
-      "publishDate": "2025-07-07",
-      "engagements": 86,
-      "impressions": 9531,
-      "engagementRate": 0.00902318749344245
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7276298431566888961",
-      "publishDate": "2024-12-21",
-      "engagements": 0,
-      "impressions": 10510,
-      "engagementRate": 0
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7386507812090331136",
-      "publishDate": "2025-10-21",
-      "engagements": 55,
-      "impressions": 8228,
-      "engagementRate": 0.0066844919786096255
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7378808296331276288",
-      "publishDate": "2025-09-30",
-      "engagements": 51,
-      "impressions": 0,
-      "engagementRate": 0
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444447359876485121",
+      "publishDate": "2026-03-30",
+      "engagements": 455,
+      "impressions": 19093,
+      "engagementRate": 0.02383072330173362
     },
     {
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7432896023825600515",
       "publishDate": "2026-02-26",
-      "engagements": 36,
+      "engagements": 454,
+      "impressions": 29303,
+      "engagementRate": 0.015493294201958843
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7441219891304656897",
+      "publishDate": "2026-03-21",
+      "engagements": 257,
+      "impressions": 37335,
+      "engagementRate": 0.006883621266907727
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7444794040761356288",
+      "publishDate": "2026-03-31",
+      "engagements": 294,
+      "impressions": 35230,
+      "engagementRate": 0.00834516037468067
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7437536658398441472",
+      "publishDate": "2026-03-11",
+      "engagements": 259,
+      "impressions": 25566,
+      "engagementRate": 0.010130642259250568
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7437177982588256256",
+      "publishDate": "2026-03-10",
+      "engagements": 123,
+      "impressions": 27464,
+      "engagementRate": 0.004478590154383921
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442250814368210946",
+      "publishDate": "2026-03-24",
+      "engagements": 139,
+      "impressions": 26696,
+      "engagementRate": 0.005206772550194786
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7439385676275609600",
+      "publishDate": "2026-03-16",
+      "engagements": 189,
+      "impressions": 16339,
+      "engagementRate": 0.011567415386498562
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7436842822269472768",
+      "publishDate": "2026-03-09",
+      "engagements": 161,
+      "impressions": 13601,
+      "engagementRate": 0.011837364899639732
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442666043161989121",
+      "publishDate": "2026-03-25",
+      "engagements": 157,
+      "impressions": 17818,
+      "engagementRate": 0.008811314401167359
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7439750305690484737",
+      "publishDate": "2026-03-17",
+      "engagements": 140,
+      "impressions": 17452,
+      "engagementRate": 0.008022003208801283
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7429922267872014336",
+      "publishDate": "2026-02-18",
+      "engagements": 134,
+      "impressions": 9561,
+      "engagementRate": 0.014015270369208242
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7432182700582645760",
+      "publishDate": "2026-02-24",
+      "engagements": 128,
+      "impressions": 8454,
+      "engagementRate": 0.015140761769576532
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7433196513062932480",
+      "publishDate": "2026-02-27",
+      "engagements": 63,
+      "impressions": 10240,
+      "engagementRate": 0.00615234375
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7431004705192980480",
+      "publishDate": "2026-02-21",
+      "engagements": 125,
+      "impressions": 8200,
+      "engagementRate": 0.01524390243902439
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7432484938416877568",
+      "publishDate": "2026-02-25",
+      "engagements": 83,
+      "impressions": 9536,
+      "engagementRate": 0.008703859060402684
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7430702274269769728",
+      "publishDate": "2026-02-20",
+      "engagements": 94,
+      "impressions": 6986,
+      "engagementRate": 0.013455482393358144
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7427067485553725440",
+      "publishDate": "2026-02-10",
+      "engagements": 90,
+      "impressions": 4860,
+      "engagementRate": 0.018518518518518517
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7429591193274970113",
+      "publishDate": "2026-02-17",
+      "engagements": 84,
+      "impressions": 2537,
+      "engagementRate": 0.03310997240835633
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7435103154192486400",
+      "publishDate": "2026-03-04",
+      "engagements": 71,
+      "impressions": 7727,
+      "engagementRate": 0.009188559596221044
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7434658757575458816",
+      "publishDate": "2026-03-03",
+      "engagements": 56,
+      "impressions": 5481,
+      "engagementRate": 0.010217113665389528
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7429207225589620736",
+      "publishDate": "2026-02-16",
+      "engagements": 67,
+      "impressions": 4069,
+      "engagementRate": 0.01646596215286311
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7431426648287272960",
+      "publishDate": "2026-02-22",
+      "engagements": 44,
+      "impressions": 4943,
+      "engagementRate": 0.008901476835929597
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7424959637658972160",
+      "publishDate": "2026-02-04",
+      "engagements": 66,
+      "impressions": 1910,
+      "engagementRate": 0.03455497382198953
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7443343540627144704",
+      "publishDate": "2026-03-27",
+      "engagements": 26,
+      "impressions": 4135,
+      "engagementRate": 0.006287787182587666
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7430304749616361472",
+      "publishDate": "2026-02-19",
+      "engagements": 57,
+      "impressions": 3292,
+      "engagementRate": 0.017314702308626976
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7295484455509475328",
+      "publishDate": "2025-02-12",
+      "engagements": 29,
+      "impressions": 1168,
+      "engagementRate": 0.02482876712328767
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7427783853785927680",
+      "publishDate": "2026-02-12",
+      "engagements": 26,
+      "impressions": 921,
+      "engagementRate": 0.02823018458197611
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7428147040452358144",
+      "publishDate": "2026-02-13",
+      "engagements": 20,
+      "impressions": 1760,
+      "engagementRate": 0.011363636363636364
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7300171021905522688",
+      "publishDate": "2025-02-25",
+      "engagements": 20,
+      "impressions": 1182,
+      "engagementRate": 0.01692047377326565
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7425631917334503436",
+      "publishDate": "2026-02-06",
+      "engagements": 12,
+      "impressions": 455,
+      "engagementRate": 0.026373626373626374
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7293330860064284673",
+      "publishDate": "2025-02-06",
+      "engagements": 9,
+      "impressions": 732,
+      "engagementRate": 0.012295081967213115
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7307823881510092801",
+      "publishDate": "2025-03-18",
+      "engagements": 10,
+      "impressions": 423,
+      "engagementRate": 0.02364066193853428
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7427399002419073024",
+      "publishDate": "2026-02-11",
+      "engagements": 9,
+      "impressions": 602,
+      "engagementRate": 0.014950166112956811
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7426693408544530433",
+      "publishDate": "2026-02-09",
+      "engagements": 8,
+      "impressions": 506,
+      "engagementRate": 0.015810276679841896
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7425297635286224897",
+      "publishDate": "2026-02-05",
+      "engagements": 9,
+      "impressions": 436,
+      "engagementRate": 0.020642201834862386
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7389331659248267267",
+      "publishDate": "2025-10-29",
+      "engagements": 5,
+      "impressions": 225,
+      "engagementRate": 0.022222222222222223
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7397697481938980864",
+      "publishDate": "2025-11-21",
+      "engagements": 1,
+      "impressions": 374,
+      "engagementRate": 0.00267379679144385
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7299824481361973249",
+      "publishDate": "2025-02-24",
+      "engagements": 3,
+      "impressions": 322,
+      "engagementRate": 0.009316770186335404
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7388631643449778176",
+      "publishDate": "2025-10-27",
+      "engagements": 3,
+      "impressions": 302,
+      "engagementRate": 0.009933774834437087
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7223764565015101440",
+      "publishDate": "2024-07-29",
+      "engagements": 2,
       "impressions": 0,
       "engagementRate": 0
     },
     {
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7297631552933449729",
       "publishDate": "2025-02-18",
-      "engagements": 33,
-      "impressions": 6681,
-      "engagementRate": 0.004939380332285586
-    },
-    {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7297300763842629633",
-      "publishDate": "2025-02-17",
-      "engagements": 0,
-      "impressions": 5913,
+      "engagements": 1,
+      "impressions": 0,
       "engagementRate": 0
     },
     {
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7385890143993499648",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7389673837572964353",
+      "publishDate": "2025-10-30",
+      "engagements": 0,
+      "impressions": 207,
+      "engagementRate": 0
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7386091593826459649",
       "publishDate": "2025-10-20",
-      "engagements": 29,
-      "impressions": 0,
+      "engagements": 0,
+      "impressions": 156,
       "engagementRate": 0
     }
   ],
-  "totalFollowers": 22363,
+  "totalFollowers": 26868,
   "dailyFollowers": [
     {
-      "date": "2025-02-27",
-      "newFollowers": 539
+      "date": "2026-03-01",
+      "newFollowers": 86
     },
     {
-      "date": "2025-02-28",
-      "newFollowers": 361
+      "date": "2026-03-02",
+      "newFollowers": 280
     },
     {
-      "date": "2025-03-01",
-      "newFollowers": 262
+      "date": "2026-03-03",
+      "newFollowers": 722
     },
     {
-      "date": "2025-03-02",
-      "newFollowers": 241
+      "date": "2026-03-04",
+      "newFollowers": 134
     },
     {
-      "date": "2025-03-03",
-      "newFollowers": 170
-    },
-    {
-      "date": "2025-03-04",
-      "newFollowers": 170
-    },
-    {
-      "date": "2025-03-05",
-      "newFollowers": 166
-    },
-    {
-      "date": "2025-03-06",
-      "newFollowers": 127
-    },
-    {
-      "date": "2025-03-07",
-      "newFollowers": 176
-    },
-    {
-      "date": "2025-03-08",
-      "newFollowers": 200
-    },
-    {
-      "date": "2025-03-09",
-      "newFollowers": 102
-    },
-    {
-      "date": "2025-03-10",
-      "newFollowers": 121
-    },
-    {
-      "date": "2025-03-11",
-      "newFollowers": 73
-    },
-    {
-      "date": "2025-03-12",
-      "newFollowers": 74
-    },
-    {
-      "date": "2025-03-13",
-      "newFollowers": 202
-    },
-    {
-      "date": "2025-03-14",
-      "newFollowers": 161
-    },
-    {
-      "date": "2025-03-15",
-      "newFollowers": 72
-    },
-    {
-      "date": "2025-03-16",
-      "newFollowers": 51
-    },
-    {
-      "date": "2025-03-17",
-      "newFollowers": 73
-    },
-    {
-      "date": "2025-03-18",
-      "newFollowers": 247
-    },
-    {
-      "date": "2025-03-19",
-      "newFollowers": 289
-    },
-    {
-      "date": "2025-03-20",
-      "newFollowers": 139
-    },
-    {
-      "date": "2025-03-21",
-      "newFollowers": 170
-    },
-    {
-      "date": "2025-03-22",
-      "newFollowers": 282
-    },
-    {
-      "date": "2025-03-23",
-      "newFollowers": 361
-    },
-    {
-      "date": "2025-03-24",
-      "newFollowers": 176
-    },
-    {
-      "date": "2025-03-25",
-      "newFollowers": 107
-    },
-    {
-      "date": "2025-03-26",
-      "newFollowers": 183
-    },
-    {
-      "date": "2025-03-27",
-      "newFollowers": 124
-    },
-    {
-      "date": "2025-03-28",
+      "date": "2026-03-05",
       "newFollowers": 89
     },
     {
-      "date": "2025-03-29",
-      "newFollowers": 62
+      "date": "2026-03-06",
+      "newFollowers": 149
     },
     {
-      "date": "2025-03-30",
-      "newFollowers": 74
+      "date": "2026-03-07",
+      "newFollowers": 715
     },
     {
-      "date": "2025-03-31",
-      "newFollowers": 74
+      "date": "2026-03-08",
+      "newFollowers": 280
     },
     {
-      "date": "2025-04-01",
+      "date": "2026-03-09",
+      "newFollowers": 66
+    },
+    {
+      "date": "2026-03-10",
       "newFollowers": 73
     },
     {
-      "date": "2025-04-02",
+      "date": "2026-03-11",
       "newFollowers": 62
     },
     {
-      "date": "2025-04-03",
-      "newFollowers": 56
-    },
-    {
-      "date": "2025-04-04",
+      "date": "2026-03-12",
       "newFollowers": 57
     },
     {
-      "date": "2025-04-05",
-      "newFollowers": 33
+      "date": "2026-03-13",
+      "newFollowers": 69
     },
     {
-      "date": "2025-04-06",
-      "newFollowers": 25
+      "date": "2026-03-14",
+      "newFollowers": 197
     },
     {
-      "date": "2025-04-07",
-      "newFollowers": 38
+      "date": "2026-03-15",
+      "newFollowers": 492
     },
     {
-      "date": "2025-04-08",
-      "newFollowers": 53
+      "date": "2026-03-16",
+      "newFollowers": 102
     },
     {
-      "date": "2025-04-09",
-      "newFollowers": 26
+      "date": "2026-03-17",
+      "newFollowers": 99
     },
     {
-      "date": "2025-04-10",
-      "newFollowers": 36
-    },
-    {
-      "date": "2025-04-11",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-04-12",
-      "newFollowers": 19
-    },
-    {
-      "date": "2025-04-13",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-04-14",
-      "newFollowers": 23
-    },
-    {
-      "date": "2025-04-15",
-      "newFollowers": 32
-    },
-    {
-      "date": "2025-04-16",
-      "newFollowers": 35
-    },
-    {
-      "date": "2025-04-17",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-04-18",
-      "newFollowers": 51
-    },
-    {
-      "date": "2025-04-19",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-04-20",
-      "newFollowers": 15
-    },
-    {
-      "date": "2025-04-21",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-04-22",
-      "newFollowers": 34
-    },
-    {
-      "date": "2025-04-23",
-      "newFollowers": 15
-    },
-    {
-      "date": "2025-04-24",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-04-25",
-      "newFollowers": 19
-    },
-    {
-      "date": "2025-04-26",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-04-27",
-      "newFollowers": 11
-    },
-    {
-      "date": "2025-04-28",
-      "newFollowers": 11
-    },
-    {
-      "date": "2025-04-29",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-04-30",
-      "newFollowers": 24
-    },
-    {
-      "date": "2025-05-01",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-05-02",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-05-03",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-05-04",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-05-05",
-      "newFollowers": 16
-    },
-    {
-      "date": "2025-05-06",
-      "newFollowers": 25
-    },
-    {
-      "date": "2025-05-07",
-      "newFollowers": 24
-    },
-    {
-      "date": "2025-05-08",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-05-09",
-      "newFollowers": 15
-    },
-    {
-      "date": "2025-05-10",
-      "newFollowers": 23
-    },
-    {
-      "date": "2025-05-11",
-      "newFollowers": 15
-    },
-    {
-      "date": "2025-05-12",
-      "newFollowers": 23
-    },
-    {
-      "date": "2025-05-13",
-      "newFollowers": 35
-    },
-    {
-      "date": "2025-05-14",
-      "newFollowers": 30
-    },
-    {
-      "date": "2025-05-15",
-      "newFollowers": 25
-    },
-    {
-      "date": "2025-05-16",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-05-17",
-      "newFollowers": 10
-    },
-    {
-      "date": "2025-05-18",
-      "newFollowers": 19
-    },
-    {
-      "date": "2025-05-19",
-      "newFollowers": 23
-    },
-    {
-      "date": "2025-05-20",
-      "newFollowers": 50
-    },
-    {
-      "date": "2025-05-21",
-      "newFollowers": 44
-    },
-    {
-      "date": "2025-05-22",
-      "newFollowers": 25
-    },
-    {
-      "date": "2025-05-23",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-05-24",
-      "newFollowers": 15
-    },
-    {
-      "date": "2025-05-25",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-05-26",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-05-27",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-05-28",
-      "newFollowers": 7
-    },
-    {
-      "date": "2025-05-29",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-05-30",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-05-31",
-      "newFollowers": 15
-    },
-    {
-      "date": "2025-06-01",
-      "newFollowers": 13
-    },
-    {
-      "date": "2025-06-02",
-      "newFollowers": 13
-    },
-    {
-      "date": "2025-06-03",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-06-04",
-      "newFollowers": 14
-    },
-    {
-      "date": "2025-06-05",
-      "newFollowers": 23
-    },
-    {
-      "date": "2025-06-06",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-06-07",
-      "newFollowers": 13
-    },
-    {
-      "date": "2025-06-08",
-      "newFollowers": 9
-    },
-    {
-      "date": "2025-06-09",
-      "newFollowers": 12
-    },
-    {
-      "date": "2025-06-10",
-      "newFollowers": 19
-    },
-    {
-      "date": "2025-06-11",
-      "newFollowers": 29
-    },
-    {
-      "date": "2025-06-12",
-      "newFollowers": 32
-    },
-    {
-      "date": "2025-06-13",
-      "newFollowers": 15
-    },
-    {
-      "date": "2025-06-14",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-06-15",
-      "newFollowers": 15
-    },
-    {
-      "date": "2025-06-16",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-06-17",
-      "newFollowers": 195
-    },
-    {
-      "date": "2025-06-18",
-      "newFollowers": 100
-    },
-    {
-      "date": "2025-06-19",
-      "newFollowers": 35
-    },
-    {
-      "date": "2025-06-20",
-      "newFollowers": 28
-    },
-    {
-      "date": "2025-06-21",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-06-22",
-      "newFollowers": 28
-    },
-    {
-      "date": "2025-06-23",
-      "newFollowers": 62
-    },
-    {
-      "date": "2025-06-24",
-      "newFollowers": 96
-    },
-    {
-      "date": "2025-06-25",
-      "newFollowers": 36
-    },
-    {
-      "date": "2025-06-26",
-      "newFollowers": 35
-    },
-    {
-      "date": "2025-06-27",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-06-28",
-      "newFollowers": 26
-    },
-    {
-      "date": "2025-06-29",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-06-30",
-      "newFollowers": 35
-    },
-    {
-      "date": "2025-07-01",
-      "newFollowers": 40
-    },
-    {
-      "date": "2025-07-02",
-      "newFollowers": 56
-    },
-    {
-      "date": "2025-07-03",
-      "newFollowers": 28
-    },
-    {
-      "date": "2025-07-04",
-      "newFollowers": 23
-    },
-    {
-      "date": "2025-07-05",
-      "newFollowers": 13
-    },
-    {
-      "date": "2025-07-06",
-      "newFollowers": 14
-    },
-    {
-      "date": "2025-07-07",
-      "newFollowers": 38
-    },
-    {
-      "date": "2025-07-08",
-      "newFollowers": 32
-    },
-    {
-      "date": "2025-07-09",
-      "newFollowers": 25
-    },
-    {
-      "date": "2025-07-10",
-      "newFollowers": 32
-    },
-    {
-      "date": "2025-07-11",
-      "newFollowers": 24
-    },
-    {
-      "date": "2025-07-12",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-07-13",
-      "newFollowers": 13
-    },
-    {
-      "date": "2025-07-14",
-      "newFollowers": 28
-    },
-    {
-      "date": "2025-07-15",
-      "newFollowers": 30
-    },
-    {
-      "date": "2025-07-16",
-      "newFollowers": 34
-    },
-    {
-      "date": "2025-07-17",
-      "newFollowers": 100
-    },
-    {
-      "date": "2025-07-18",
-      "newFollowers": 25
-    },
-    {
-      "date": "2025-07-19",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-07-20",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-07-21",
-      "newFollowers": 36
-    },
-    {
-      "date": "2025-07-22",
-      "newFollowers": 26
-    },
-    {
-      "date": "2025-07-23",
-      "newFollowers": 38
-    },
-    {
-      "date": "2025-07-24",
-      "newFollowers": 29
-    },
-    {
-      "date": "2025-07-25",
-      "newFollowers": 14
-    },
-    {
-      "date": "2025-07-26",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-07-27",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-07-28",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-07-29",
-      "newFollowers": 38
-    },
-    {
-      "date": "2025-07-30",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-07-31",
-      "newFollowers": 45
-    },
-    {
-      "date": "2025-08-01",
-      "newFollowers": 40
-    },
-    {
-      "date": "2025-08-02",
-      "newFollowers": 29
-    },
-    {
-      "date": "2025-08-03",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-08-04",
-      "newFollowers": 13
-    },
-    {
-      "date": "2025-08-05",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-08-06",
-      "newFollowers": 30
-    },
-    {
-      "date": "2025-08-07",
-      "newFollowers": 43
-    },
-    {
-      "date": "2025-08-08",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-08-09",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-08-10",
-      "newFollowers": 13
-    },
-    {
-      "date": "2025-08-11",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-08-12",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-08-13",
-      "newFollowers": 25
-    },
-    {
-      "date": "2025-08-14",
-      "newFollowers": 29
-    },
-    {
-      "date": "2025-08-15",
-      "newFollowers": 16
-    },
-    {
-      "date": "2025-08-16",
-      "newFollowers": 14
-    },
-    {
-      "date": "2025-08-17",
-      "newFollowers": 16
-    },
-    {
-      "date": "2025-08-18",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-08-19",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-08-20",
-      "newFollowers": 26
-    },
-    {
-      "date": "2025-08-21",
-      "newFollowers": 13
-    },
-    {
-      "date": "2025-08-22",
-      "newFollowers": 23
-    },
-    {
-      "date": "2025-08-23",
-      "newFollowers": 14
-    },
-    {
-      "date": "2025-08-24",
-      "newFollowers": 19
-    },
-    {
-      "date": "2025-08-25",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-08-26",
-      "newFollowers": 33
-    },
-    {
-      "date": "2025-08-27",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-08-28",
-      "newFollowers": 26
-    },
-    {
-      "date": "2025-08-29",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-08-30",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-08-31",
-      "newFollowers": 16
-    },
-    {
-      "date": "2025-09-01",
-      "newFollowers": 32
-    },
-    {
-      "date": "2025-09-02",
-      "newFollowers": 28
-    },
-    {
-      "date": "2025-09-03",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-09-04",
-      "newFollowers": 23
-    },
-    {
-      "date": "2025-09-05",
-      "newFollowers": 26
-    },
-    {
-      "date": "2025-09-06",
-      "newFollowers": 0
-    },
-    {
-      "date": "2025-09-07",
-      "newFollowers": 19
-    },
-    {
-      "date": "2025-09-08",
-      "newFollowers": 28
-    },
-    {
-      "date": "2025-09-09",
-      "newFollowers": 24
-    },
-    {
-      "date": "2025-09-10",
-      "newFollowers": 25
-    },
-    {
-      "date": "2025-09-11",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-09-12",
-      "newFollowers": 32
-    },
-    {
-      "date": "2025-09-13",
-      "newFollowers": 13
-    },
-    {
-      "date": "2025-09-14",
-      "newFollowers": 30
-    },
-    {
-      "date": "2025-09-15",
-      "newFollowers": 29
-    },
-    {
-      "date": "2025-09-16",
-      "newFollowers": 31
-    },
-    {
-      "date": "2025-09-17",
-      "newFollowers": 27
-    },
-    {
-      "date": "2025-09-18",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-09-19",
-      "newFollowers": 27
-    },
-    {
-      "date": "2025-09-20",
-      "newFollowers": 14
-    },
-    {
-      "date": "2025-09-21",
-      "newFollowers": 32
-    },
-    {
-      "date": "2025-09-22",
-      "newFollowers": 24
-    },
-    {
-      "date": "2025-09-23",
-      "newFollowers": 35
-    },
-    {
-      "date": "2025-09-24",
-      "newFollowers": 30
-    },
-    {
-      "date": "2025-09-25",
-      "newFollowers": 32
-    },
-    {
-      "date": "2025-09-26",
-      "newFollowers": 29
-    },
-    {
-      "date": "2025-09-27",
-      "newFollowers": 15
-    },
-    {
-      "date": "2025-09-28",
-      "newFollowers": 9
-    },
-    {
-      "date": "2025-09-29",
-      "newFollowers": 29
-    },
-    {
-      "date": "2025-09-30",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-10-01",
-      "newFollowers": 33
-    },
-    {
-      "date": "2025-10-02",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-10-03",
-      "newFollowers": 19
-    },
-    {
-      "date": "2025-10-04",
-      "newFollowers": 15
-    },
-    {
-      "date": "2025-10-05",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-10-06",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-10-07",
-      "newFollowers": 16
-    },
-    {
-      "date": "2025-10-08",
-      "newFollowers": 9
-    },
-    {
-      "date": "2025-10-09",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-10-10",
-      "newFollowers": 6
-    },
-    {
-      "date": "2025-10-11",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-10-12",
-      "newFollowers": 11
-    },
-    {
-      "date": "2025-10-13",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-10-14",
-      "newFollowers": 24
-    },
-    {
-      "date": "2025-10-15",
-      "newFollowers": 37
-    },
-    {
-      "date": "2025-10-16",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-10-17",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-10-18",
-      "newFollowers": 14
-    },
-    {
-      "date": "2025-10-19",
-      "newFollowers": 10
-    },
-    {
-      "date": "2025-10-20",
-      "newFollowers": 24
-    },
-    {
-      "date": "2025-10-21",
-      "newFollowers": 26
-    },
-    {
-      "date": "2025-10-22",
-      "newFollowers": 26
-    },
-    {
-      "date": "2025-10-23",
-      "newFollowers": 36
-    },
-    {
-      "date": "2025-10-24",
-      "newFollowers": 23
-    },
-    {
-      "date": "2025-10-25",
-      "newFollowers": 19
-    },
-    {
-      "date": "2025-10-26",
-      "newFollowers": 18
-    },
-    {
-      "date": "2025-10-27",
-      "newFollowers": 68
-    },
-    {
-      "date": "2025-10-28",
-      "newFollowers": 77
-    },
-    {
-      "date": "2025-10-29",
-      "newFollowers": 49
-    },
-    {
-      "date": "2025-10-30",
-      "newFollowers": 125
-    },
-    {
-      "date": "2025-10-31",
-      "newFollowers": 136
-    },
-    {
-      "date": "2025-11-01",
-      "newFollowers": 39
-    },
-    {
-      "date": "2025-11-02",
-      "newFollowers": 38
-    },
-    {
-      "date": "2025-11-03",
-      "newFollowers": 42
-    },
-    {
-      "date": "2025-11-04",
-      "newFollowers": 36
-    },
-    {
-      "date": "2025-11-05",
-      "newFollowers": 24
-    },
-    {
-      "date": "2025-11-06",
-      "newFollowers": 27
-    },
-    {
-      "date": "2025-11-07",
-      "newFollowers": 38
-    },
-    {
-      "date": "2025-11-08",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-11-09",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-11-10",
-      "newFollowers": 47
-    },
-    {
-      "date": "2025-11-11",
-      "newFollowers": 27
-    },
-    {
-      "date": "2025-11-12",
-      "newFollowers": 27
-    },
-    {
-      "date": "2025-11-13",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-11-14",
-      "newFollowers": 22
-    },
-    {
-      "date": "2025-11-15",
-      "newFollowers": 15
-    },
-    {
-      "date": "2025-11-16",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-11-17",
-      "newFollowers": 26
-    },
-    {
-      "date": "2025-11-18",
-      "newFollowers": 32
-    },
-    {
-      "date": "2025-11-19",
-      "newFollowers": 24
-    },
-    {
-      "date": "2025-11-20",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-11-21",
-      "newFollowers": 51
-    },
-    {
-      "date": "2025-11-22",
-      "newFollowers": 54
-    },
-    {
-      "date": "2025-11-23",
-      "newFollowers": 29
-    },
-    {
-      "date": "2025-11-24",
-      "newFollowers": 38
-    },
-    {
-      "date": "2025-11-25",
-      "newFollowers": 29
-    },
-    {
-      "date": "2025-11-26",
-      "newFollowers": 28
-    },
-    {
-      "date": "2025-11-27",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-11-28",
-      "newFollowers": 10
-    },
-    {
-      "date": "2025-11-29",
-      "newFollowers": 8
-    },
-    {
-      "date": "2025-11-30",
-      "newFollowers": 12
-    },
-    {
-      "date": "2025-12-01",
-      "newFollowers": 24
-    },
-    {
-      "date": "2025-12-02",
-      "newFollowers": 26
-    },
-    {
-      "date": "2025-12-03",
-      "newFollowers": 19
-    },
-    {
-      "date": "2025-12-04",
-      "newFollowers": 19
-    },
-    {
-      "date": "2025-12-05",
-      "newFollowers": 10
-    },
-    {
-      "date": "2025-12-06",
-      "newFollowers": 16
-    },
-    {
-      "date": "2025-12-07",
-      "newFollowers": 11
-    },
-    {
-      "date": "2025-12-08",
-      "newFollowers": 6
-    },
-    {
-      "date": "2025-12-09",
-      "newFollowers": 11
-    },
-    {
-      "date": "2025-12-10",
-      "newFollowers": 16
-    },
-    {
-      "date": "2025-12-11",
-      "newFollowers": 12
-    },
-    {
-      "date": "2025-12-12",
-      "newFollowers": 10
-    },
-    {
-      "date": "2025-12-13",
-      "newFollowers": 12
-    },
-    {
-      "date": "2025-12-14",
-      "newFollowers": 6
-    },
-    {
-      "date": "2025-12-15",
-      "newFollowers": 16
-    },
-    {
-      "date": "2025-12-16",
-      "newFollowers": 14
-    },
-    {
-      "date": "2025-12-17",
-      "newFollowers": 15
-    },
-    {
-      "date": "2025-12-18",
-      "newFollowers": 16
-    },
-    {
-      "date": "2025-12-19",
-      "newFollowers": 24
-    },
-    {
-      "date": "2025-12-20",
-      "newFollowers": 14
-    },
-    {
-      "date": "2025-12-21",
-      "newFollowers": 17
-    },
-    {
-      "date": "2025-12-22",
-      "newFollowers": 19
-    },
-    {
-      "date": "2025-12-23",
-      "newFollowers": 19
-    },
-    {
-      "date": "2025-12-24",
-      "newFollowers": 21
-    },
-    {
-      "date": "2025-12-25",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-12-26",
-      "newFollowers": 7
-    },
-    {
-      "date": "2025-12-27",
-      "newFollowers": 9
-    },
-    {
-      "date": "2025-12-28",
-      "newFollowers": 20
-    },
-    {
-      "date": "2025-12-29",
-      "newFollowers": 16
-    },
-    {
-      "date": "2025-12-30",
-      "newFollowers": 14
-    },
-    {
-      "date": "2025-12-31",
-      "newFollowers": 19
-    },
-    {
-      "date": "2026-01-01",
-      "newFollowers": 13
-    },
-    {
-      "date": "2026-01-02",
-      "newFollowers": 11
-    },
-    {
-      "date": "2026-01-03",
-      "newFollowers": 6
-    },
-    {
-      "date": "2026-01-04",
-      "newFollowers": 17
-    },
-    {
-      "date": "2026-01-05",
-      "newFollowers": 18
-    },
-    {
-      "date": "2026-01-06",
-      "newFollowers": 26
-    },
-    {
-      "date": "2026-01-07",
-      "newFollowers": 36
-    },
-    {
-      "date": "2026-01-08",
-      "newFollowers": 25
-    },
-    {
-      "date": "2026-01-09",
-      "newFollowers": 19
-    },
-    {
-      "date": "2026-01-10",
-      "newFollowers": 23
-    },
-    {
-      "date": "2026-01-11",
-      "newFollowers": 15
-    },
-    {
-      "date": "2026-01-12",
-      "newFollowers": 32
-    },
-    {
-      "date": "2026-01-13",
-      "newFollowers": 23
-    },
-    {
-      "date": "2026-01-14",
-      "newFollowers": 23
-    },
-    {
-      "date": "2026-01-15",
-      "newFollowers": 13
-    },
-    {
-      "date": "2026-01-16",
-      "newFollowers": 20
-    },
-    {
-      "date": "2026-01-17",
-      "newFollowers": 24
-    },
-    {
-      "date": "2026-01-18",
-      "newFollowers": 19
-    },
-    {
-      "date": "2026-01-19",
-      "newFollowers": 30
-    },
-    {
-      "date": "2026-01-20",
-      "newFollowers": 21
-    },
-    {
-      "date": "2026-01-21",
-      "newFollowers": 28
-    },
-    {
-      "date": "2026-01-22",
-      "newFollowers": 20
-    },
-    {
-      "date": "2026-01-23",
-      "newFollowers": 26
-    },
-    {
-      "date": "2026-01-24",
-      "newFollowers": 21
-    },
-    {
-      "date": "2026-01-25",
-      "newFollowers": 33
-    },
-    {
-      "date": "2026-01-26",
-      "newFollowers": 27
-    },
-    {
-      "date": "2026-01-27",
-      "newFollowers": 29
-    },
-    {
-      "date": "2026-01-28",
-      "newFollowers": 23
-    },
-    {
-      "date": "2026-01-29",
-      "newFollowers": 20
-    },
-    {
-      "date": "2026-01-30",
-      "newFollowers": 20
-    },
-    {
-      "date": "2026-01-31",
-      "newFollowers": 12
-    },
-    {
-      "date": "2026-02-01",
-      "newFollowers": 16
-    },
-    {
-      "date": "2026-02-02",
-      "newFollowers": 20
-    },
-    {
-      "date": "2026-02-03",
-      "newFollowers": 22
-    },
-    {
-      "date": "2026-02-04",
-      "newFollowers": 22
-    },
-    {
-      "date": "2026-02-05",
-      "newFollowers": 431
-    },
-    {
-      "date": "2026-02-06",
-      "newFollowers": 207
-    },
-    {
-      "date": "2026-02-07",
-      "newFollowers": 212
-    },
-    {
-      "date": "2026-02-08",
-      "newFollowers": 150
-    },
-    {
-      "date": "2026-02-09",
+      "date": "2026-03-18",
       "newFollowers": 89
     },
     {
-      "date": "2026-02-10",
+      "date": "2026-03-19",
       "newFollowers": 113
     },
     {
-      "date": "2026-02-11",
-      "newFollowers": 244
+      "date": "2026-03-20",
+      "newFollowers": 98
     },
     {
-      "date": "2026-02-12",
-      "newFollowers": 90
+      "date": "2026-03-21",
+      "newFollowers": 161
     },
     {
-      "date": "2026-02-13",
-      "newFollowers": 130
+      "date": "2026-03-22",
+      "newFollowers": 91
     },
     {
-      "date": "2026-02-14",
-      "newFollowers": 129
+      "date": "2026-03-23",
+      "newFollowers": 158
     },
     {
-      "date": "2026-02-15",
-      "newFollowers": 58
+      "date": "2026-03-24",
+      "newFollowers": 362
     },
     {
-      "date": "2026-02-16",
-      "newFollowers": 100
+      "date": "2026-03-25",
+      "newFollowers": 84
     },
     {
-      "date": "2026-02-17",
-      "newFollowers": 120
+      "date": "2026-03-26",
+      "newFollowers": 85
     },
     {
-      "date": "2026-02-18",
-      "newFollowers": 263
+      "date": "2026-03-27",
+      "newFollowers": 161
     },
     {
-      "date": "2026-02-19",
-      "newFollowers": 718
+      "date": "2026-03-28",
+      "newFollowers": 73
     },
     {
-      "date": "2026-02-20",
-      "newFollowers": 239
+      "date": "2026-03-29",
+      "newFollowers": 68
     },
     {
-      "date": "2026-02-21",
-      "newFollowers": 262
+      "date": "2026-03-30",
+      "newFollowers": 77
     },
     {
-      "date": "2026-02-22",
-      "newFollowers": 318
+      "date": "2026-03-31",
+      "newFollowers": 98
     },
     {
-      "date": "2026-02-23",
-      "newFollowers": 223
-    },
-    {
-      "date": "2026-02-24",
-      "newFollowers": 92
-    },
-    {
-      "date": "2026-02-25",
-      "newFollowers": 216
-    },
-    {
-      "date": "2026-02-26",
-      "newFollowers": 328
+      "date": "2026-04-01",
+      "newFollowers": 53
     }
   ],
   "demographics": {
     "jobTitles": [
       {
         "value": "Software Engineer",
-        "percentage": 0.2471943199634552
+        "percentage": 0.24438397586345673
       },
       {
         "value": "Full Stack Engineer",
-        "percentage": 0.02282375656068325
+        "percentage": 0.021905958652496338
       },
       {
         "value": "Artificial Intelligence Engineer",
-        "percentage": 0.018578454852104187
+        "percentage": 0.01890609785914421
       },
       {
         "value": "Founder",
-        "percentage": 0.01836829073727131
+        "percentage": 0.0173712857067585
       },
       {
         "value": "Co-Founder",
-        "percentage": 0.015383969061076641
+        "percentage": 0.01405748538672924
       }
     ],
     "locations": [
       {
         "value": "Greater Bengaluru Area",
-        "percentage": 0.08204783499240875
+        "percentage": 0.08832146972417831
       },
       {
         "value": "San Francisco Bay Area",
-        "percentage": 0.07217014580965042
-      },
-      {
-        "value": "New York City Metropolitan Area",
-        "percentage": 0.06452019512653351
+        "percentage": 0.06411329656839371
       },
       {
         "value": "Greater Delhi Area",
-        "percentage": 0.057458702474832535
+        "percentage": 0.06275289505720139
+      },
+      {
+        "value": "New York City Metropolitan Area",
+        "percentage": 0.056299708783626556
       },
       {
         "value": "Greater Hyderabad Area",
-        "percentage": 0.028792399913072586
+        "percentage": 0.03257988020777702
       }
     ],
     "industries": [
       {
         "value": "Software Development",
-        "percentage": 0.47391870617866516
+        "percentage": 0.4564671516418457
       },
       {
         "value": "IT Services and IT Consulting",
-        "percentage": 0.14703038334846497
+        "percentage": 0.1542835235595703
       },
       {
         "value": "Technology, Information and Internet",
-        "percentage": 0.13118405640125275
+        "percentage": 0.13652853667736053
       },
       {
         "value": "Higher Education",
-        "percentage": 0.023286117240786552
+        "percentage": 0.02553369663655758
       },
       {
         "value": "Financial Services",
-        "percentage": 0.022319365292787552
+        "percentage": 0.021243197843432426
       }
     ],
     "seniority": [
       {
         "value": "Entry",
-        "percentage": 0.4041864573955536
+        "percentage": 0.39692339301109314
       },
       {
         "value": "Senior",
-        "percentage": 0.21651044487953186
+        "percentage": 0.20549044013023376
       },
       {
         "value": "Training",
-        "percentage": 0.045311253517866135
+        "percentage": 0.049044229090213776
       },
       {
         "value": "Owner",
-        "percentage": 0.024210836738348007
+        "percentage": 0.022533835843205452
       },
       {
         "value": "CXO",
-        "percentage": 0.022487495094537735
+        "percentage": 0.020545555278658867
       }
     ],
     "companySize": [
       {
         "value": "10,001+ employees",
-        "percentage": 0.22794334590435028
+        "percentage": 0.22108274698257446
       },
       {
         "value": "11-50 employees",
-        "percentage": 0.1122693419456482
+        "percentage": 0.10956466943025589
       },
       {
         "value": "51-200 employees",
-        "percentage": 0.08566264808177948
-      },
-      {
-        "value": "1-10 employees",
-        "percentage": 0.08087091892957687
+        "percentage": 0.08626343309879303
       },
       {
         "value": "1001-5000 employees",
-        "percentage": 0.07918960601091385
+        "percentage": 0.07778707891702652
+      },
+      {
+        "value": "1-10 employees",
+        "percentage": 0.0763917937874794
       }
     ]
   }
